@@ -65,15 +65,23 @@ def main() :
 
 def initMkFile() :
     infile = open(mkfile_name, "w");
-    print("# Automatically generated file by generate_files.sh", file=infile)
+    print("# Automatically generated file by generate_files.py", file=infile)
     print("# Script by gabry3795 - gabry.gabry <at> hotmail.it\n", file=infile)
-    print("LOCAL_PATH := vendor/huawei/hwmt7_l09\n\n", file=infile)
+    print("LOCAL_PATH := vendor/huawei/hwmt7_l09\n", file=infile)
+    
+    # Extra text
+    print("\n", file=infile)
+    print("PRODUCT_PACKAGES += \\", file=infile)
+    print("\tlibGLES_mali", file=infile)
+    
+    print("\n", file=infile)
+    
     infile.close()
 
 def initShFile() :    
     infile = open(scriptfile_name, "w");
     print("#!/bin/bash", file=infile)
-    print("# Automatically generated file by generate_files.sh", file=infile)
+    print("# Automatically generated file by generate_files.py", file=infile)
     print("# Script by gabry3795 - gabry.gabry <at> hotmail.it\n", file=infile)
     infile.close()
        
