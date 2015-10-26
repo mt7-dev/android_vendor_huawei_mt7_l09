@@ -1,8 +1,8 @@
 #!/bin/bash
-# Automatically generated file by generate_files.sh
+# Automatically generated file by generate_files.py
 # Script by gabry3795 - gabry.gabry <at> hotmail.it
 
-adb pull Android.mk /proprietary/Android.m
+adb pull Android.mk.totest /proprietary/Android.mk.totes
 adb pull system/ons.bin /proprietary/system
 adb pull system/vendor/firmware/nvram4334_hw_jazz_clg.txt /proprietary/system/vendor/firmware
 adb pull system/vendor/firmware/nvram4334_hw_dualband.txt /proprietary/system/vendor/firmware
@@ -28,6 +28,7 @@ adb pull system/lib/libHwMotionRecognition.so /proprietary/system/lib
 adb pull system/lib/libconfig_interface.so /proprietary/system/lib
 adb pull system/lib/libhwgl.so /proprietary/system/lib
 adb pull system/lib/libhwlog_jni.so /proprietary/system/lib
+adb pull system/lib/libstagefright.huawei.so /proprietary/system/lib
 adb pull system/lib/lib_hwnsd_input.so /proprietary/system/lib
 adb pull system/lib/libbalong_audio_ril.so /proprietary/system/lib
 adb pull system/lib/libhwui.so /proprietary/system/lib
@@ -49,15 +50,19 @@ adb pull system/lib/libsurfaceflinger.so /proprietary/system/lib
 adb pull system/lib/libhwouc_jni.so /proprietary/system/lib
 adb pull system/lib/libhisi_efuse.so /proprietary/system/lib
 adb pull system/lib/libcameraservice.so /proprietary/system/lib
+adb pull system/lib/libdrmbitmap.huawei.so /proprietary/system/lib
 adb pull system/lib/libion.so /proprietary/system/lib
+adb pull system/lib/libmtp.huawei.so /proprietary/system/lib
 adb pull system/lib/libteec.so /proprietary/system/lib
 adb pull system/lib/libcamera_drv.so /proprietary/system/lib
 adb pull system/lib/libhwextdevice.so /proprietary/system/lib
+adb pull system/lib/libmediarecorder.huawei.so /proprietary/system/lib
 adb pull system/lib/libjpegenchw.so /proprietary/system/lib
 adb pull system/lib/libgnuexif.so /proprietary/system/lib
 adb pull system/lib/libCameraHwCallBack.so /proprietary/system/lib
 adb pull system/lib/libfingersense.so /proprietary/system/lib
 adb pull system/lib/libCameraHwParam.so /proprietary/system/lib
+adb pull system/lib/libsurfaceflinger_ddmconnection.so /proprietary/system/lib
 adb pull system/lib/libhwaps.so /proprietary/system/lib
 adb pull system/lib/libHW_BShutter.so /proprietary/system/lib
 adb pull system/lib/libHwMMITestCustEx_jni.so /proprietary/system/lib
@@ -67,6 +72,7 @@ adb pull system/lib/libcamera_client.so /proprietary/system/lib
 adb pull system/lib/libhuawei_mmi_test.so /proprietary/system/lib
 adb pull system/lib/libhwtheme_jni.so /proprietary/system/lib
 adb pull system/lib/libbalong-ril.so /proprietary/system/lib
+adb pull system/lib/libmedia_jni.huawei.so /proprietary/system/lib
 adb pull system/lib/lib_hwnsd_sf.so /proprietary/system/lib
 adb pull system/lib/libaudioom.so /proprietary/system/lib
 adb pull system/lib/libhuaweiprocessing.so /proprietary/system/lib
@@ -447,4 +453,4 @@ adb pull system/etc/camera/tornado/sonyimx134_liteon/TornadoI.ini /proprietary/s
 adb pull system/etc/camera/tornado/imx214_sunny/TornadoI.ini /proprietary/system/etc/camera/tornado/imx214_sunny
 
 
-# Total 443 files added on 2015-10-25T15:20:23.866615 UTC
+# Total 449 files added on 2015-10-26T13:14:01.501003 UTC

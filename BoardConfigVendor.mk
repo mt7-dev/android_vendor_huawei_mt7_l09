@@ -1,4 +1,4 @@
-# Automatically generated file by generate_files.sh
+# Automatically generated file by generate_files.py
 # Script by gabry3795 - gabry.gabry <at> hotmail.it
 
 LOCAL_PATH := vendor/huawei/hwmt7_l09
@@ -10,7 +10,7 @@ PRODUCT_PACKAGES += \
 
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/Android.mk:Android.mk \
+	$(LOCAL_PATH)/proprietary/Android.mk.totest:Android.mk.totest \
 	$(LOCAL_PATH)/proprietary/system/ons.bin:system/ons.bin \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_clg.txt:system/vendor/firmware/nvram4334_hw_jazz_clg.txt \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_dualband.txt:system/vendor/firmware/nvram4334_hw_dualband.txt \
@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libconfig_interface.so:system/lib/libconfig_interface.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwgl.so:system/lib/libhwgl.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwlog_jni.so:system/lib/libhwlog_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.huawei.so:system/lib/libstagefright.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_input.so:system/lib/lib_hwnsd_input.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwui.so:system/lib/libhwui.so \
@@ -57,15 +58,19 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwouc_jni.so:system/lib/libhwouc_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhisi_efuse.so:system/lib/libhisi_efuse.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libdrmbitmap.huawei.so:system/lib/libdrmbitmap.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmtp.huawei.so:system/lib/libmtp.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcamera_drv.so:system/lib/libcamera_drv.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwextdevice.so:system/lib/libhwextdevice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmediarecorder.huawei.so:system/lib/libmediarecorder.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjpegenchw.so:system/lib/libjpegenchw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwCallBack.so:system/lib/libCameraHwCallBack.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfingersense.so:system/lib/libfingersense.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwParam.so:system/lib/libCameraHwParam.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwaps.so:system/lib/libhwaps.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHW_BShutter.so:system/lib/libHW_BShutter.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwMMITestCustEx_jni.so:system/lib/libHwMMITestCustEx_jni.so \
@@ -75,6 +80,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuawei_mmi_test.so:system/lib/libhuawei_mmi_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwtheme_jni.so:system/lib/libhwtheme_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.huawei.so:system/lib/libmedia_jni.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_sf.so:system/lib/lib_hwnsd_sf.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioom.so:system/lib/libaudioom.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
@@ -455,4 +461,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/imx214_sunny/TornadoI.ini:system/etc/camera/tornado/imx214_sunny/TornadoI.ini
 
 
-# Total 443 files added on 2015-10-25T15:20:23.866600 UTC
+# Total 449 files added on 2015-10-26T13:14:01.500989 UTC
