@@ -37,10 +37,16 @@ def main() :
     for path, subdirs, files in os.walk(root):
         for name in files:
             counter += 1
-            # Print to terminal
-            print("%4d | %s" %(counter, os.path.join(path, name).replace(root,"") ))
-            
+
             true_dir = os.path.join(path, name).replace(root,"")
+
+            # Print to terminal
+            print("%4d | %s" %(counter, true_dir ))
+
+            # Exclude files
+            if(true_dir[true_dir.rfind(".")+1:] in "mk"):
+                print("- Skipped")
+                continue
 
             # Print in mk_file
             ## In mkfile last item has not the "\" at the end of the line

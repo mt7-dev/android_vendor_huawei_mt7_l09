@@ -10,455 +10,454 @@ PRODUCT_PACKAGES += \
 
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/Android.mk.totest:Android.mk.totest \
 	$(LOCAL_PATH)/proprietary/system/ons.bin:system/ons.bin \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_clg.txt:system/vendor/firmware/nvram4334_hw_jazz_clg.txt \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_dualband.txt:system/vendor/firmware/nvram4334_hw_dualband.txt \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_mogolia_ulg.txt:system/vendor/firmware/nvram4334_hw_mogolia_ulg.txt \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcm4334_test_hw_apsta_dualband.bin:system/vendor/firmware/fw_bcm4334_test_hw_apsta_dualband.bin \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/BCM4334B0_002.001.013.1164.1457_RC.hcd:system/vendor/firmware/BCM4334B0_002.001.013.1164.1457_RC.hcd \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_ulca.txt:system/vendor/firmware/nvram4334_hw_jazz_ulca.txt \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_tlg.txt:system/vendor/firmware/nvram4334_hw_jazz_tlg.txt \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_clg.txt:system/vendor/firmware/nvram4334_hw_jazz_clg.txt \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_mogolia_tl.txt:system/vendor/firmware/nvram4334_hw_mogolia_tl.txt \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_mogolia_ulca.txt:system/vendor/firmware/nvram4334_hw_mogolia_ulca.txt \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_pine_ulgtlg.txt:system/vendor/firmware/nvram4334_hw_pine_ulgtlg.txt \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_pine_clg.txt:system/vendor/firmware/nvram4334_hw_pine_clg.txt \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_ulg.txt:system/vendor/firmware/nvram4334_hw_jazz_ulg.txt \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/BCM4334B0_002.001.013.1164.1457_RC.hcd:system/vendor/firmware/BCM4334B0_002.001.013.1164.1457_RC.hcd \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_tlg.txt:system/vendor/firmware/nvram4334_hw_jazz_tlg.txt \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcm4334_apsta_hw_dualband.bin:system/vendor/firmware/fw_bcm4334_apsta_hw_dualband.bin \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcm4334_test_hw_apsta_dualband.bin:system/vendor/firmware/fw_bcm4334_test_hw_apsta_dualband.bin \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcm4334_hw_dualband.bin:system/vendor/firmware/fw_bcm4334_hw_dualband.bin \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_ulca.txt:system/vendor/firmware/nvram4334_hw_jazz_ulca.txt \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_ulg.txt:system/vendor/firmware/nvram4334_hw_jazz_ulg.txt \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcm4334_apsta_hw_dualband.bin:system/vendor/firmware/fw_bcm4334_apsta_hw_dualband.bin \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_pine_ulgtlg.txt:system/vendor/firmware/nvram4334_hw_pine_ulgtlg.txt \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_dualband.txt:system/vendor/firmware/nvram4334_hw_dualband.txt \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_pine_clg.txt:system/vendor/firmware/nvram4334_hw_pine_clg.txt \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_pine_tlg.txt:system/vendor/firmware/nvram4334_hw_pine_tlg.txt \
-	$(LOCAL_PATH)/proprietary/system/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
 	$(LOCAL_PATH)/proprietary/system/vendor/lib/hw/hwcomposer.hi3630.so:system/vendor/lib/hw/hwcomposer.hi3630.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
 	$(LOCAL_PATH)/proprietary/system/vendor/framework/com.huawei.audioalgo.jar:system/vendor/framework/com.huawei.audioalgo.jar \
 	$(LOCAL_PATH)/proprietary/system/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-	$(LOCAL_PATH)/proprietary/system/lib/libHwMotionRecognition.so:system/lib/libHwMotionRecognition.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libconfig_interface.so:system/lib/libconfig_interface.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwgl.so:system/lib/libhwgl.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwlog_jni.so:system/lib/libhwlog_jni.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.huawei.so:system/lib/libstagefright.huawei.so \
-	$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_input.so:system/lib/lib_hwnsd_input.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwui.so:system/lib/libhwui.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-1.so:system/lib/libbalong-ril-1.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.huawei.so:system/lib/libaudioflinger.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/isp/isp.bin:system/isp/isp.bin \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioeffectutil.so:system/lib/libhuaweiaudioeffectutil.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libHwManufactureCustEx_jni.so:system/lib/libHwManufactureCustEx_jni.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libtfa9887.so:system/lib/libtfa9887.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libHwMMITestCustEx_jni.so:system/lib/libHwMMITestCustEx_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioalgoservice.so:system/lib/libhuaweiaudioalgoservice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhwui.so:system/lib/libhwui.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhwlog_jni.so:system/lib/libhwlog_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjpu.so:system/lib/libjpu.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libui.so:system/lib/libui.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libHW_Pano_f.so:system/lib/libHW_Pano_f.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libservices.huawei.so:system/lib/libservices.huawei.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libgui.so:system/lib/libgui.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libHWExtDeviceService.so:system/lib/libHWExtDeviceService.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libcamera_core.so:system/lib/libcamera_core.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwSendCmd.so:system/lib/libCameraHwSendCmd.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwouc_jni.so:system/lib/libhwouc_jni.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhisi_efuse.so:system/lib/libhisi_efuse.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhuaweigpsrpc.so:system/lib/libhuaweigpsrpc.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libtfa9887.so:system/lib/libtfa9887.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdrmbitmap.huawei.so:system/lib/libdrmbitmap.huawei.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libmtp.huawei.so:system/lib/libmtp.huawei.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libcamera_drv.so:system/lib/libcamera_drv.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwextdevice.so:system/lib/libhwextdevice.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libmediarecorder.huawei.so:system/lib/libmediarecorder.huawei.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libjpegenchw.so:system/lib/libjpegenchw.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwCallBack.so:system/lib/libCameraHwCallBack.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libfingersense.so:system/lib/libfingersense.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhwouc_jni.so:system/lib/libhwouc_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libHW_BShutter.so:system/lib/libHW_BShutter.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.huawei.so:system/lib/libaudioflinger.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmtp.huawei.so:system/lib/libmtp.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-1.so:system/lib/libbalong-ril-1.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libcamera_core.so:system/lib/libcamera_core.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhwtheme_jni.so:system/lib/libhwtheme_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.huawei.so:system/lib/libstagefright.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhisi_efuse.so:system/lib/libhisi_efuse.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhwgl.so:system/lib/libhwgl.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libservices.huawei.so:system/lib/libservices.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libHW_Pano_f.so:system/lib/libHW_Pano_f.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjpegenchw.so:system/lib/libjpegenchw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwParam.so:system/lib/libCameraHwParam.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwaps.so:system/lib/libhwaps.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libHW_BShutter.so:system/lib/libHW_BShutter.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libHwMMITestCustEx_jni.so:system/lib/libHwMMITestCustEx_jni.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhuaweigpsrpc.so:system/lib/libhuaweigpsrpc.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioalgoservice.so:system/lib/libhuaweiaudioalgoservice.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhuawei_mmi_test.so:system/lib/libhuawei_mmi_test.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwtheme_jni.so:system/lib/libhwtheme_jni.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.huawei.so:system/lib/libmedia_jni.huawei.so \
-	$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_sf.so:system/lib/lib_hwnsd_sf.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_input.so:system/lib/lib_hwnsd_input.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libHwManufactureCustEx_jni.so:system/lib/libHwManufactureCustEx_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioom.so:system/lib/libaudioom.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/keystore.hi3630.so:system/lib/hw/keystore.hi3630.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/power.default.so:system/lib/hw/power.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/camera.hi3630.so:system/lib/hw/camera.hi3630.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/copybit.hi3630.so:system/lib/hw/copybit.hi3630.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/gps47531.default.so:system/lib/hw/gps47531.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.hi3630.so:system/lib/hw/audio.primary.hi3630.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/power.hi3630.so:system/lib/hw/power.hi3630.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/fingerprint_module.default.so:system/lib/hw/fingerprint_module.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/gps4752.default.so:system/lib/hw/gps4752.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhwaps.so:system/lib/libhwaps.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libHwMotionRecognition.so:system/lib/libHwMotionRecognition.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_sf.so:system/lib/lib_hwnsd_sf.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.huawei.so:system/lib/libmedia_jni.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libui.so:system/lib/libui.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhuawei_mmi_test.so:system/lib/libhuawei_mmi_test.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libHWExtDeviceService.so:system/lib/libHWExtDeviceService.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libcamera_drv.so:system/lib/libcamera_drv.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfingersense.so:system/lib/libfingersense.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libgui.so:system/lib/libgui.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwSendCmd.so:system/lib/libCameraHwSendCmd.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmediarecorder.huawei.so:system/lib/libmediarecorder.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libconfig_interface.so:system/lib/libconfig_interface.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.hi3630.so:system/lib/hw/gralloc.hi3630.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/libbcmfm_if.so:system/lib/hw/libbcmfm_if.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/memtrack.hi3630.so:system/lib/hw/memtrack.hi3630.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/gps47531cl.default.so:system/lib/hw/gps47531cl.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-	$(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/memtrack.hi3630.so:system/lib/hw/memtrack.hi3630.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/fingerprint_module.default.so:system/lib/hw/fingerprint_module.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.default.so:system/lib/hw/hwcomposer.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/libbcmfm_if.so:system/lib/hw/libbcmfm_if.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/copybit.hi3630.so:system/lib/hw/copybit.hi3630.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/gps47531.default.so:system/lib/hw/gps47531.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/power.default.so:system/lib/hw/power.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/camera.hi3630.so:system/lib/hw/camera.hi3630.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/keystore.hi3630.so:system/lib/hw/keystore.hi3630.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/gps4752cl.default.so:system/lib/hw/gps4752cl.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/power.hi3630.so:system/lib/hw/power.hi3630.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.hi3630.so:system/lib/hw/audio.primary.hi3630.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/sensorhub.default.so:system/lib/hw/sensorhub.default.so \
-	$(LOCAL_PATH)/proprietary/system/isp/isp.bin:system/isp/isp.bin \
-	$(LOCAL_PATH)/proprietary/system/bin/thermal-daemon:system/bin/thermal-daemon \
-	$(LOCAL_PATH)/proprietary/system/bin/glgps47531:system/bin/glgps47531 \
-	$(LOCAL_PATH)/proprietary/system/bin/glgps4752:system/bin/glgps4752 \
-	$(LOCAL_PATH)/proprietary/system/bin/hdb:system/bin/hdb \
-	$(LOCAL_PATH)/proprietary/system/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
-	$(LOCAL_PATH)/proprietary/system/bin/hdmi_daemon:system/bin/hdmi_daemon \
-	$(LOCAL_PATH)/proprietary/system/bin/hw_cdmamodem_service:system/bin/hw_cdmamodem_service \
-	$(LOCAL_PATH)/proprietary/system/bin/hwpged:system/bin/hwpged \
-	$(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
-	$(LOCAL_PATH)/proprietary/system/bin/gps4752logd:system/bin/gps4752logd \
-	$(LOCAL_PATH)/proprietary/system/bin/hwnffserver:system/bin/hwnffserver \
-	$(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
-	$(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver \
-	$(LOCAL_PATH)/proprietary/system/bin/huawei_tp_test:system/bin/huawei_tp_test \
-	$(LOCAL_PATH)/proprietary/system/bin/storedefaultkey:system/bin/storedefaultkey \
-	$(LOCAL_PATH)/proprietary/system/bin/glgps4752cl:system/bin/glgps4752cl \
-	$(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
-	$(LOCAL_PATH)/proprietary/system/bin/glgps47531cl:system/bin/glgps47531cl \
-	$(LOCAL_PATH)/proprietary/system/bin/gpsdaemon:system/bin/gpsdaemon \
-	$(LOCAL_PATH)/proprietary/system/bin/gpslogd:system/bin/gpslogd \
-	$(LOCAL_PATH)/proprietary/system/bin/hw_ueventd:system/bin/hw_ueventd \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_PINE_ULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_PINE_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_BELLA_TLGULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_BELLA_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_CLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_ULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_PINE_TLGULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_PINE_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_SGLTEU_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_SGLTEU_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_TLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_BELLA_CLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_BELLA_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_MOGOLIA_TL_normal.xml:system/etc/audio/modem/ascend_modem_algo_MOGOLIA_TL_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_default_normal.xml:system/etc/audio/modem/ascend_modem_algo_default_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_MOGOLIA_ULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_MOGOLIA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_PINE_CLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_PINE_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_PINE_TLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_PINE_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_ULCA_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_MOGOLIA_ULCA_normal.xml:system/etc/audio/modem/ascend_modem_algo_MOGOLIA_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_BELLA_ULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_BELLA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_TLGULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_default_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_default_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_ULCA_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_TLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_ULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_SGLTEU_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_SGLTEU_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_ULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_ULCA_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_TLGULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_TL_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_TL_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_ULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_CLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_ULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_TLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_CLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_CLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_PINE_TLGULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_PINE_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_SGLTEU_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_SGLTEU_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_BELLA_CLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_BELLA_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_MOGOLIA_ULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_MOGOLIA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_ULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_MOGOLIA_TL_normal.xml:system/etc/audio/dts/ascend_dts_algo_MOGOLIA_TL_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_default_normal.xml:system/etc/audio/dts/ascend_dts_algo_default_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_BELLA_ULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_BELLA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_PINE_ULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_PINE_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_ULCA_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_CLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_TLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_MOGOLIA_ULCA_normal.xml:system/etc/audio/dts/ascend_dts_algo_MOGOLIA_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_PINE_TLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_PINE_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_PINE_CLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_PINE_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_BELLA_TLGULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_BELLA_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_MOGOLIA_ULCA_normal.xml:system/etc/audio/algorithm/algorithm_MOGOLIA_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_SGLTEU_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_SGLTEU_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_PINE_TLG_normal.xml:system/etc/audio/algorithm/algorithm_PINE_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_PINE_ULG_normal.xml:system/etc/audio/algorithm/algorithm_PINE_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_BELLA_TLGULG_normal.xml:system/etc/audio/algorithm/algorithm_BELLA_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_ULCA_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_CLG_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_MOGOLIA_ULG_normal.xml:system/etc/audio/algorithm/algorithm_MOGOLIA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_BELLA_CLG_normal.xml:system/etc/audio/algorithm/algorithm_BELLA_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_ULG_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_FIFA_CLG_normal.xml:system/etc/audio/algorithm/algorithm_FIFA_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_default_normal.xml:system/etc/audio/algorithm/algorithm_default_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_PINE_CLG_normal.xml:system/etc/audio/algorithm/algorithm_PINE_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_TLG_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_MOGOLIA_TL_normal.xml:system/etc/audio/algorithm/algorithm_MOGOLIA_TL_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_PINE_TLGULG_normal.xml:system/etc/audio/algorithm/algorithm_PINE_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_BELLA_ULG_normal.xml:system/etc/audio/algorithm/algorithm_BELLA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_TLGULG_ce.xml:system/etc/audio/codec/ascend_PINE_TLGULG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_ULG_normal.xml:system/etc/audio/codec/ascend_PINE_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_TLG_ce.xml:system/etc/audio/codec/ascend_JAZZ_TLG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_ULCA_normal.xml:system/etc/audio/codec/ascend_MOGOLIA_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_TLGULG_normal.xml:system/etc/audio/codec/ascend_BELLA_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_ULG_ce.xml:system/etc/audio/codec/ascend_PINE_ULG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_SGLTEU_ce.xml:system/etc/audio/codec/ascend_JAZZ_SGLTEU_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_TL_normal.xml:system/etc/audio/codec/ascend_MOGOLIA_TL_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_TLGULG_normal.xml:system/etc/audio/codec/ascend_PINE_TLGULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_FIFA_CLG_normal.xml:system/etc/audio/codec/ascend_FIFA_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_ULG_ce.xml:system/etc/audio/codec/ascend_MOGOLIA_ULG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_CLG_ce.xml:system/etc/audio/codec/ascend_PINE_CLG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_ULCA_normal.xml:system/etc/audio/codec/ascend_JAZZ_ULCA_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_CLG_normal.xml:system/etc/audio/codec/ascend_BELLA_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_CLG_normal.xml:system/etc/audio/codec/ascend_JAZZ_CLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_CLG_ce.xml:system/etc/audio/codec/ascend_JAZZ_CLG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_TLG_ce.xml:system/etc/audio/codec/ascend_PINE_TLG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_CLG_ce.xml:system/etc/audio/codec/ascend_BELLA_CLG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_ULG_normal.xml:system/etc/audio/codec/ascend_MOGOLIA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_SGLTEU_normal.xml:system/etc/audio/codec/ascend_JAZZ_SGLTEU_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_ULG_normal.xml:system/etc/audio/codec/ascend_JAZZ_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_ULG_ce.xml:system/etc/audio/codec/ascend_BELLA_ULG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_TLG_normal.xml:system/etc/audio/codec/ascend_PINE_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_TL_ce.xml:system/etc/audio/codec/ascend_MOGOLIA_TL_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_ULG_ce.xml:system/etc/audio/codec/ascend_JAZZ_ULG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_TLGULG_ce.xml:system/etc/audio/codec/ascend_BELLA_TLGULG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_default_normal.xml:system/etc/audio/codec/ascend_default_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_ULCA_ce.xml:system/etc/audio/codec/ascend_MOGOLIA_ULCA_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_TLG_normal.xml:system/etc/audio/codec/ascend_JAZZ_TLG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_FIFA_CLG_ce.xml:system/etc/audio/codec/ascend_FIFA_CLG_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_ULG_normal.xml:system/etc/audio/codec/ascend_BELLA_ULG_normal.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_ULCA_ce.xml:system/etc/audio/codec/ascend_JAZZ_ULCA_ce.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_CLG_normal.xml:system/etc/audio/codec/ascend_PINE_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/gps4752.default.so:system/lib/hw/gps4752.default.so \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu3.mtdata:system/etc/camera/meitu/kujiu3.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu2.mtdata:system/etc/camera/meitu/kujiu2.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu1.mtdata:system/etc/camera/meitu/kujiu1.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/dianying.mtdata:system/etc/camera/meitu/dianying.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/sucai5.mtdata:system/etc/camera/meitu/sucai5.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu4.mtdata:system/etc/camera/meitu/kujiu4.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/sucai3.mtdata:system/etc/camera/meitu/sucai3.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/chengguang.mtdata:system/etc/camera/meitu/chengguang.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/moran.mtdata:system/etc/camera/meitu/moran.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu5.mtdata:system/etc/camera/meitu/kujiu5.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/sucai7.mtdata:system/etc/camera/meitu/sucai7.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/sucai4.mtdata:system/etc/camera/meitu/sucai4.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/qingse1.mtdata:system/etc/camera/meitu/qingse1.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/overlayMap.mtdata:system/etc/camera/meitu/overlayMap.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/PSScreen.mtdata:system/etc/camera/meitu/PSScreen.mtdata \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/multidenoise.xml:system/etc/camera/multidenoise/multidenoise.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/device.config:system/etc/camera/multidenoise/device.config \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx134_sunny/imgproc.xml:system/etc/camera/multidenoise/sonyimx134_sunny/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx134_sunny/multiframe.xml:system/etc/camera/multidenoise/sonyimx134_sunny/multiframe.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/s5k4e1ga_foxconn/imgproc.xml:system/etc/camera/multidenoise/s5k4e1ga_foxconn/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx135_liteon/imgproc.xml:system/etc/camera/multidenoise/sonyimx135_liteon/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx135_liteon/multiframe.xml:system/etc/camera/multidenoise/sonyimx135_liteon/multiframe.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/hi542/imgproc.xml:system/etc/camera/multidenoise/hi542/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx134_liteon/imgproc.xml:system/etc/camera/multidenoise/sonyimx134_liteon/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx134_liteon/multiframe.xml:system/etc/camera/multidenoise/sonyimx134_liteon/multiframe.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/ov8830/imgproc.xml:system/etc/camera/multidenoise/ov8830/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/default/imgproc.xml:system/etc/camera/multidenoise/default/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/default/multiframe.xml:system/etc/camera/multidenoise/default/multiframe.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/hwscope/hwsz.xml:system/etc/camera/hwscope/hwsz.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/hwscope/kernel:system/etc/camera/hwscope/kernel \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/device.config:system/etc/camera/smartae/device.config \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/sonyimx134_sunny/SmartAE.xml:system/etc/camera/smartae/sonyimx134_sunny/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/ov5648_sunny/SmartAE.xml:system/etc/camera/smartae/ov5648_sunny/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/s5k4e1gx_sunny/SmartAE.xml:system/etc/camera/smartae/s5k4e1gx_sunny/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/s5k4e1ga_foxconn/SmartAE.xml:system/etc/camera/smartae/s5k4e1ga_foxconn/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/sonyimx135_liteon/SmartAE.xml:system/etc/camera/smartae/sonyimx135_liteon/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/ov5648_foxconn/SmartAE.xml:system/etc/camera/smartae/ov5648_foxconn/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/s5k4e1gx_foxconn/SmartAE.xml:system/etc/camera/smartae/s5k4e1gx_foxconn/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/imx214_foxconn/SmartAE.xml:system/etc/camera/smartae/imx214_foxconn/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/sonyimx134_liteon/SmartAE.xml:system/etc/camera/smartae/sonyimx134_liteon/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/imx214_sunny/SmartAE.xml:system/etc/camera/smartae/imx214_sunny/SmartAE.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/device.config:system/etc/camera/bshutter/device.config \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/imx214/info.xml:system/etc/camera/bshutter/imx214/info.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/imx214/algo.xml:system/etc/camera/bshutter/imx214/algo.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/default/info.xml:system/etc/camera/bshutter/default/info.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/default/algo.xml:system/etc/camera/bshutter/default/algo.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/device.config:system/etc/camera/davinci/device.config \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/ov5648_sunny/imgproc.xml:system/etc/camera/davinci/ov5648_sunny/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/s5k4e1gx_sunny/imgproc.xml:system/etc/camera/davinci/s5k4e1gx_sunny/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/s5k4e1ga_foxconn/cm_foliage.dat:system/etc/camera/davinci/s5k4e1ga_foxconn/cm_foliage.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/s5k4e1ga_foxconn/imgproc.xml:system/etc/camera/davinci/s5k4e1ga_foxconn/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_sunset.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_sunset.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_foliage_s.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_foliage_s.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_sky.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_sky.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_sky_s.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_sky_s.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_foliage.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_foliage.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_normal.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_normal.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_normal_s.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_normal_s.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/imgproc.xml:system/etc/camera/davinci/sonyimx135_liteon/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/multiframe.xml:system/etc/camera/davinci/sonyimx135_liteon/multiframe.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/ov5648_foxconn/imgproc.xml:system/etc/camera/davinci/ov5648_foxconn/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/s5k4e1gx_foxconn/imgproc.xml:system/etc/camera/davinci/s5k4e1gx_foxconn/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_sunset.dat:system/etc/camera/davinci/imx214_foxconn/cm_sunset.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_foliage_s.dat:system/etc/camera/davinci/imx214_foxconn/cm_foliage_s.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_sky.dat:system/etc/camera/davinci/imx214_foxconn/cm_sky.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_sky_s.dat:system/etc/camera/davinci/imx214_foxconn/cm_sky_s.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_foliage.dat:system/etc/camera/davinci/imx214_foxconn/cm_foliage.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_normal.dat:system/etc/camera/davinci/imx214_foxconn/cm_normal.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_normal_s.dat:system/etc/camera/davinci/imx214_foxconn/cm_normal_s.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/imgproc.xml:system/etc/camera/davinci/imx214_foxconn/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/multiframe.xml:system/etc/camera/davinci/imx214_foxconn/multiframe.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/hi542/cm_foliage.dat:system/etc/camera/davinci/hi542/cm_foliage.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/hi542/imgproc.xml:system/etc/camera/davinci/hi542/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_sunset.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_sunset.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_foliage_s.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_foliage_s.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_sky.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_sky.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_sky_s.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_sky_s.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_foliage.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_foliage.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_normal.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_normal.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_normal_s.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_normal_s.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/imgproc.xml:system/etc/camera/davinci/sonyimx134_liteon/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/multiframe.xml:system/etc/camera/davinci/sonyimx134_liteon/multiframe.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/ov8830/imgproc.xml:system/etc/camera/davinci/ov8830/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_sunset.dat:system/etc/camera/davinci/default/cm_sunset.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_correction.dat:system/etc/camera/davinci/default/cm_correction.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_sky.dat:system/etc/camera/davinci/default/cm_sky.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_foliage.dat:system/etc/camera/davinci/default/cm_foliage.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_normal.dat:system/etc/camera/davinci/default/cm_normal.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/imgproc.xml:system/etc/camera/davinci/default/imgproc.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/NightModelTOA.model:system/etc/camera/tornado/NightModelTOA.model \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/NightMinMaxTOA.txt:system/etc/camera/tornado/NightMinMaxTOA.txt \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/SunsetModelTOA.model:system/etc/camera/tornado/SunsetModelTOA.model \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/SunsetMinMaxTOA.txt:system/etc/camera/tornado/SunsetMinMaxTOA.txt \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/TornadoI.ini:system/etc/camera/tornado/TornadoI.ini \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/FoliageModelTOA.model:system/etc/camera/tornado/FoliageModelTOA.model \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx134_sunny/TornadoI.ini:system/etc/camera/tornado/sonyimx134_sunny/TornadoI.ini \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx214_foxconn/TornadoI.ini:system/etc/camera/tornado/sonyimx214_foxconn/TornadoI.ini \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx135_liteon/TornadoI.ini:system/etc/camera/tornado/sonyimx135_liteon/TornadoI.ini \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx214_sunny/TornadoI.ini:system/etc/camera/tornado/sonyimx214_sunny/TornadoI.ini \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/imx214_foxconn/TornadoI.ini:system/etc/camera/tornado/imx214_foxconn/TornadoI.ini \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx134_liteon/TornadoI.ini:system/etc/camera/tornado/sonyimx134_liteon/TornadoI.ini \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/imx214_sunny/TornadoI.ini:system/etc/camera/tornado/imx214_sunny/TornadoI.ini \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/filter/mixIm.dat:system/etc/camera/filter/mixIm.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/filter/filter.xml:system/etc/camera/filter/filter.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/tracking/targettracking.xml:system/etc/camera/tracking/targettracking.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/device.config:system/etc/camera/soft3aconfig/device.config \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/sonyimx134_sunny/soft3Aconfig.xml:system/etc/camera/soft3aconfig/sonyimx134_sunny/soft3Aconfig.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/s5k4e1gx_sunny/soft3Aconfig.xml:system/etc/camera/soft3aconfig/s5k4e1gx_sunny/soft3Aconfig.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/s5k4e1ga_foxconn/soft3Aconfig.xml:system/etc/camera/soft3aconfig/s5k4e1ga_foxconn/soft3Aconfig.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/sonyimx135_liteon/soft3Aconfig.xml:system/etc/camera/soft3aconfig/sonyimx135_liteon/soft3Aconfig.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/ov5648_foxconn/soft3Aconfig.xml:system/etc/camera/soft3aconfig/ov5648_foxconn/soft3Aconfig.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/imx214_foxconn/soft3Aconfig.xml:system/etc/camera/soft3aconfig/imx214_foxconn/soft3Aconfig.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/sonyimx134_liteon/soft3Aconfig.xml:system/etc/camera/soft3aconfig/sonyimx134_liteon/soft3Aconfig.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/imx214_sunny/soft3Aconfig.xml:system/etc/camera/soft3aconfig/imx214_sunny/soft3Aconfig.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/coldboot.patch:system/etc/audio/tfa9887/coldboot.patch \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/tfa9887_feature.config:system/etc/audio/tfa9887/tfa9887_feature.config \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/tfa9887_firmware.patch:system/etc/audio/tfa9887/tfa9887_firmware.patch \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/coldboot.patch:system/etc/audio/tfa9887/coldboot.patch \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/dsp_coefficient.config:system/etc/audio/tfa9887/BELLA_ULG/dsp_coefficient.config \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/speaker_model.speaker:system/etc/audio/tfa9887/BELLA_ULG/speaker_model.speaker \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/incall_wb/incall_wb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/incall_wb/incall_wb.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/dsp_coefficient.config:system/etc/audio/tfa9887/BELLA_ULG/dsp_coefficient.config \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/fm/fm.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/fm/fm.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/fm/fm.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/fm/fm.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/voip/voip.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/voip/voip.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/voip/voip.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/voip/voip.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/bypass/bypass.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/bypass/bypass.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/bypass/bypass.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/voip/voip.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/voip/voip.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/incall_wb/incall_wb.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/incall_wb/incall_wb.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/music/music.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/music/music.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/music/music.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/music/music.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/incall_nb/incall_nb.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/incall_nb/incall_nb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone/ringtone.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone/ringtone.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone/ringtone.preset \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone/ringtone.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/bypass/bypass.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/bypass/bypass.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/bypass/bypass.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone_hs_spk/ringtone_hs_spk.preset:system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone_hs_spk/ringtone_hs_spk.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone_hs_spk/ringtone_hs_spk.eq:system/etc/audio/tfa9887/BELLA_ULG/ce/ringtone_hs_spk/ringtone_hs_spk.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/incall_wb/incall_wb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/incall_wb/incall_wb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/fm/fm.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/fm/fm.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/fm/fm.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/fm/fm.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/voip/voip.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/voip/voip.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/voip/voip.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/voip/voip.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/bypass/bypass.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/bypass/bypass.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/bypass/bypass.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/voip/voip.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/voip/voip.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/incall_wb/incall_wb.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/incall_wb/incall_wb.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/music/music.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/music/music.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/music/music.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/music/music.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/incall_nb/incall_nb.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/incall_nb/incall_nb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone/ringtone.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone/ringtone.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone/ringtone.preset \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone/ringtone.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/bypass/bypass.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/bypass/bypass.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/bypass/bypass.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone_hs_spk/ringtone_hs_spk.preset:system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone_hs_spk/ringtone_hs_spk.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone_hs_spk/ringtone_hs_spk.eq:system/etc/audio/tfa9887/BELLA_ULG/normal/ringtone_hs_spk/ringtone_hs_spk.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/dsp_coefficient.config:system/etc/audio/tfa9887/default/dsp_coefficient.config \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/speaker_model.speaker:system/etc/audio/tfa9887/default/speaker_model.speaker \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/default/ce/incall_wb/incall_wb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/default/ce/incall_wb/incall_wb.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/dsp_coefficient.config:system/etc/audio/tfa9887/default/dsp_coefficient.config \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/fm/fm.preset:system/etc/audio/tfa9887/default/ce/fm/fm.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/fm/fm.eq:system/etc/audio/tfa9887/default/ce/fm/fm.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/voip/voip.eq:system/etc/audio/tfa9887/default/ce/voip/voip.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/voip/voip.preset:system/etc/audio/tfa9887/default/ce/voip/voip.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/bypass/bypass.preset:system/etc/audio/tfa9887/default/ce/bypass/bypass.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/bypass/bypass.eq:system/etc/audio/tfa9887/default/ce/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/voip/voip.eq:system/etc/audio/tfa9887/default/ce/voip/voip.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/default/ce/incall_wb/incall_wb.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/default/ce/incall_wb/incall_wb.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/music/music.preset:system/etc/audio/tfa9887/default/ce/music/music.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/music/music.eq:system/etc/audio/tfa9887/default/ce/music/music.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/default/ce/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/incall_nb/incall_nb.preset:system/etc/audio/tfa9887/default/ce/incall_nb/incall_nb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/ringtone/ringtone.eq:system/etc/audio/tfa9887/default/ce/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/default/ce/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/ringtone/ringtone.preset:system/etc/audio/tfa9887/default/ce/ringtone/ringtone.preset \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/ringtone/ringtone.eq:system/etc/audio/tfa9887/default/ce/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/bypass/bypass.eq:system/etc/audio/tfa9887/default/ce/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/bypass/bypass.preset:system/etc/audio/tfa9887/default/ce/bypass/bypass.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/ringtone_hs_spk/ringtone_hs_spk.preset:system/etc/audio/tfa9887/default/ce/ringtone_hs_spk/ringtone_hs_spk.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/ce/ringtone_hs_spk/ringtone_hs_spk.eq:system/etc/audio/tfa9887/default/ce/ringtone_hs_spk/ringtone_hs_spk.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/default/normal/incall_wb/incall_wb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/default/normal/incall_wb/incall_wb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/fm/fm.preset:system/etc/audio/tfa9887/default/normal/fm/fm.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/fm/fm.eq:system/etc/audio/tfa9887/default/normal/fm/fm.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/voip/voip.eq:system/etc/audio/tfa9887/default/normal/voip/voip.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/voip/voip.preset:system/etc/audio/tfa9887/default/normal/voip/voip.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/bypass/bypass.preset:system/etc/audio/tfa9887/default/normal/bypass/bypass.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/bypass/bypass.eq:system/etc/audio/tfa9887/default/normal/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/voip/voip.eq:system/etc/audio/tfa9887/default/normal/voip/voip.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/default/normal/incall_wb/incall_wb.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/default/normal/incall_wb/incall_wb.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/music/music.preset:system/etc/audio/tfa9887/default/normal/music/music.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/music/music.eq:system/etc/audio/tfa9887/default/normal/music/music.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/default/normal/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/incall_nb/incall_nb.preset:system/etc/audio/tfa9887/default/normal/incall_nb/incall_nb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/ringtone/ringtone.eq:system/etc/audio/tfa9887/default/normal/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/default/normal/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/ringtone/ringtone.preset:system/etc/audio/tfa9887/default/normal/ringtone/ringtone.preset \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/ringtone/ringtone.eq:system/etc/audio/tfa9887/default/normal/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/bypass/bypass.eq:system/etc/audio/tfa9887/default/normal/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/bypass/bypass.preset:system/etc/audio/tfa9887/default/normal/bypass/bypass.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/ringtone_hs_spk/ringtone_hs_spk.preset:system/etc/audio/tfa9887/default/normal/ringtone_hs_spk/ringtone_hs_spk.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/default/normal/ringtone_hs_spk/ringtone_hs_spk.eq:system/etc/audio/tfa9887/default/normal/ringtone_hs_spk/ringtone_hs_spk.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/dsp_coefficient.config:system/etc/audio/tfa9887/BELLA_TLGULG/dsp_coefficient.config \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/speaker_model.speaker:system/etc/audio/tfa9887/BELLA_TLGULG/speaker_model.speaker \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_wb/incall_wb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_wb/incall_wb.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/dsp_coefficient.config:system/etc/audio/tfa9887/BELLA_TLGULG/dsp_coefficient.config \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/fm/fm.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/fm/fm.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/fm/fm.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/fm/fm.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/voip/voip.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/voip/voip.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/voip/voip.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/voip/voip.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/bypass/bypass.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/bypass/bypass.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/bypass/bypass.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/voip/voip.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/voip/voip.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_wb/incall_wb.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_wb/incall_wb.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/music/music.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/music/music.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/music/music.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/music/music.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_nb/incall_nb.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_nb/incall_nb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone/ringtone.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone/ringtone.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone/ringtone.preset \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone/ringtone.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/bypass/bypass.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/bypass/bypass.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/bypass/bypass.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone_hs_spk/ringtone_hs_spk.preset:system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone_hs_spk/ringtone_hs_spk.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone_hs_spk/ringtone_hs_spk.eq:system/etc/audio/tfa9887/BELLA_TLGULG/ce/ringtone_hs_spk/ringtone_hs_spk.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_wb/incall_wb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_wb/incall_wb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/fm/fm.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/fm/fm.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/fm/fm.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/fm/fm.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/voip/voip.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/voip/voip.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/voip/voip.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/voip/voip.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/bypass/bypass.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/bypass/bypass.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/bypass/bypass.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/voip/voip.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/voip/voip.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_wb/incall_wb.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_wb/incall_wb.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_wb/incall_wb.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_wb/incall_wb.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/music/music.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/music/music.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/music/music.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/music/music.eq \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_nb/incall_nb.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_nb/incall_nb.preset \
-	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone/ringtone.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_nb/incall_nb.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/incall_nb/incall_nb.eq \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone/ringtone.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone/ringtone.preset \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone/ringtone.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone/ringtone.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/bypass/bypass.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/bypass/bypass.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/bypass/bypass.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/bypass/bypass.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone_hs_spk/ringtone_hs_spk.preset:system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone_hs_spk/ringtone_hs_spk.preset \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone_hs_spk/ringtone_hs_spk.eq:system/etc/audio/tfa9887/BELLA_TLGULG/normal/ringtone_hs_spk/ringtone_hs_spk.eq \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_CLG_normal.xml:system/etc/audio/codec/ascend_BELLA_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_TLGULG_normal.xml:system/etc/audio/codec/ascend_PINE_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_TLG_normal.xml:system/etc/audio/codec/ascend_JAZZ_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_SGLTEU_normal.xml:system/etc/audio/codec/ascend_JAZZ_SGLTEU_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_TLG_normal.xml:system/etc/audio/codec/ascend_PINE_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_CLG_normal.xml:system/etc/audio/codec/ascend_JAZZ_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_FIFA_CLG_normal.xml:system/etc/audio/codec/ascend_FIFA_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_TLG_ce.xml:system/etc/audio/codec/ascend_PINE_TLG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_ULG_normal.xml:system/etc/audio/codec/ascend_BELLA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_ULCA_normal.xml:system/etc/audio/codec/ascend_MOGOLIA_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_ULG_normal.xml:system/etc/audio/codec/ascend_PINE_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_ULCA_ce.xml:system/etc/audio/codec/ascend_JAZZ_ULCA_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_SGLTEU_ce.xml:system/etc/audio/codec/ascend_JAZZ_SGLTEU_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_TLG_ce.xml:system/etc/audio/codec/ascend_JAZZ_TLG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_ULG_ce.xml:system/etc/audio/codec/ascend_BELLA_ULG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_ULG_normal.xml:system/etc/audio/codec/ascend_JAZZ_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_CLG_ce.xml:system/etc/audio/codec/ascend_BELLA_CLG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_ULCA_normal.xml:system/etc/audio/codec/ascend_JAZZ_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_CLG_ce.xml:system/etc/audio/codec/ascend_JAZZ_CLG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_TLGULG_ce.xml:system/etc/audio/codec/ascend_BELLA_TLGULG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_ULG_normal.xml:system/etc/audio/codec/ascend_MOGOLIA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_CLG_ce.xml:system/etc/audio/codec/ascend_PINE_CLG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_TLGULG_ce.xml:system/etc/audio/codec/ascend_PINE_TLGULG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_JAZZ_ULG_ce.xml:system/etc/audio/codec/ascend_JAZZ_ULG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_TL_normal.xml:system/etc/audio/codec/ascend_MOGOLIA_TL_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_ULCA_ce.xml:system/etc/audio/codec/ascend_MOGOLIA_ULCA_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_ULG_ce.xml:system/etc/audio/codec/ascend_PINE_ULG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_FIFA_CLG_ce.xml:system/etc/audio/codec/ascend_FIFA_CLG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_default_normal.xml:system/etc/audio/codec/ascend_default_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_BELLA_TLGULG_normal.xml:system/etc/audio/codec/ascend_BELLA_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_PINE_CLG_normal.xml:system/etc/audio/codec/ascend_PINE_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_ULG_ce.xml:system/etc/audio/codec/ascend_MOGOLIA_ULG_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/codec/ascend_MOGOLIA_TL_ce.xml:system/etc/audio/codec/ascend_MOGOLIA_TL_ce.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_MOGOLIA_TL_normal.xml:system/etc/audio/dts/ascend_dts_algo_MOGOLIA_TL_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_PINE_CLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_PINE_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_PINE_TLGULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_PINE_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_MOGOLIA_ULCA_normal.xml:system/etc/audio/dts/ascend_dts_algo_MOGOLIA_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_PINE_ULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_PINE_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_BELLA_CLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_BELLA_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_MOGOLIA_ULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_MOGOLIA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_BELLA_ULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_BELLA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_TLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_SGLTEU_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_SGLTEU_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_BELLA_TLGULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_BELLA_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_PINE_TLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_PINE_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_ULCA_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_CLG_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_JAZZ_ULG_normal.xml:system/etc/audio/dts/ascend_dts_algo_JAZZ_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/dts/ascend_dts_algo_default_normal.xml:system/etc/audio/dts/ascend_dts_algo_default_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_default_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_default_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_ULCA_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_CLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_CLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_SGLTEU_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_SGLTEU_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_TLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_TLGULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_ULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_TL_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_TL_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_TLGULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_TLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_ULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_BELLA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_ULCA_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_MOGOLIA_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_ULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_JAZZ_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_CLG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_ULG_normal.xml:system/etc/audio/mbdrc/ascend_mbdrc_algo_PINE_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_MOGOLIA_ULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_MOGOLIA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_MOGOLIA_ULCA_normal.xml:system/etc/audio/modem/ascend_modem_algo_MOGOLIA_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_PINE_ULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_PINE_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_BELLA_ULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_BELLA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_default_normal.xml:system/etc/audio/modem/ascend_modem_algo_default_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_ULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_PINE_CLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_PINE_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_BELLA_CLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_BELLA_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_TLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_ULCA_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_CLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_MOGOLIA_TL_normal.xml:system/etc/audio/modem/ascend_modem_algo_MOGOLIA_TL_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_PINE_TLGULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_PINE_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_SGLTEU_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_SGLTEU_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_PINE_TLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_PINE_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_BELLA_TLGULG_normal.xml:system/etc/audio/modem/ascend_modem_algo_BELLA_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_default_normal.xml:system/etc/audio/algorithm/algorithm_default_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_BELLA_CLG_normal.xml:system/etc/audio/algorithm/algorithm_BELLA_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_MOGOLIA_TL_normal.xml:system/etc/audio/algorithm/algorithm_MOGOLIA_TL_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_CLG_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_ULCA_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_SGLTEU_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_SGLTEU_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_ULG_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_FIFA_CLG_normal.xml:system/etc/audio/algorithm/algorithm_FIFA_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_BELLA_TLGULG_normal.xml:system/etc/audio/algorithm/algorithm_BELLA_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_BELLA_ULG_normal.xml:system/etc/audio/algorithm/algorithm_BELLA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_MOGOLIA_ULG_normal.xml:system/etc/audio/algorithm/algorithm_MOGOLIA_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_PINE_ULG_normal.xml:system/etc/audio/algorithm/algorithm_PINE_ULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_PINE_TLG_normal.xml:system/etc/audio/algorithm/algorithm_PINE_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_JAZZ_TLG_normal.xml:system/etc/audio/algorithm/algorithm_JAZZ_TLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_MOGOLIA_ULCA_normal.xml:system/etc/audio/algorithm/algorithm_MOGOLIA_ULCA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_PINE_TLGULG_normal.xml:system/etc/audio/algorithm/algorithm_PINE_TLGULG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_PINE_CLG_normal.xml:system/etc/audio/algorithm/algorithm_PINE_CLG_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/srs/srsmodels.lic:system/etc/srs/srsmodels.lic \
+	$(LOCAL_PATH)/proprietary/system/etc/srs/srs_processing.cfg:system/etc/srs/srs_processing.cfg \
+	$(LOCAL_PATH)/proprietary/system/etc/srs/models.txt:system/etc/srs/models.txt \
+	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/lte_ue_msg.cfg:system/etc/modemConfig/lte_ue_msg.cfg \
 	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/viacbp82d_log.bcfg:system/etc/modemConfig/viacbp82d_log.bcfg \
 	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/SystemCmd.cmf:system/etc/modemConfig/SystemCmd.cmf \
 	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/viacbp82d_shutdown_log.bcfg:system/etc/modemConfig/viacbp82d_shutdown_log.bcfg \
-	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/lte_ue_msg.cfg:system/etc/modemConfig/lte_ue_msg.cfg \
-	$(LOCAL_PATH)/proprietary/system/etc/srs/models.txt:system/etc/srs/models.txt \
-	$(LOCAL_PATH)/proprietary/system/etc/srs/srs_processing.cfg:system/etc/srs/srs_processing.cfg \
-	$(LOCAL_PATH)/proprietary/system/etc/srs/srsmodels.lic:system/etc/srs/srsmodels.lic \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/filter/mixIm.dat:system/etc/camera/filter/mixIm.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/filter/filter.xml:system/etc/camera/filter/filter.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/multidenoise.xml:system/etc/camera/multidenoise/multidenoise.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/device.config:system/etc/camera/multidenoise/device.config \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/hi542/imgproc.xml:system/etc/camera/multidenoise/hi542/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/ov8830/imgproc.xml:system/etc/camera/multidenoise/ov8830/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx135_liteon/multiframe.xml:system/etc/camera/multidenoise/sonyimx135_liteon/multiframe.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx135_liteon/imgproc.xml:system/etc/camera/multidenoise/sonyimx135_liteon/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/s5k4e1ga_foxconn/imgproc.xml:system/etc/camera/multidenoise/s5k4e1ga_foxconn/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx134_sunny/multiframe.xml:system/etc/camera/multidenoise/sonyimx134_sunny/multiframe.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx134_sunny/imgproc.xml:system/etc/camera/multidenoise/sonyimx134_sunny/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx134_liteon/multiframe.xml:system/etc/camera/multidenoise/sonyimx134_liteon/multiframe.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/sonyimx134_liteon/imgproc.xml:system/etc/camera/multidenoise/sonyimx134_liteon/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/default/multiframe.xml:system/etc/camera/multidenoise/default/multiframe.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/multidenoise/default/imgproc.xml:system/etc/camera/multidenoise/default/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/chengguang.mtdata:system/etc/camera/meitu/chengguang.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/moran.mtdata:system/etc/camera/meitu/moran.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu1.mtdata:system/etc/camera/meitu/kujiu1.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/PSScreen.mtdata:system/etc/camera/meitu/PSScreen.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/dianying.mtdata:system/etc/camera/meitu/dianying.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/sucai5.mtdata:system/etc/camera/meitu/sucai5.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/sucai4.mtdata:system/etc/camera/meitu/sucai4.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu4.mtdata:system/etc/camera/meitu/kujiu4.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/sucai3.mtdata:system/etc/camera/meitu/sucai3.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/sucai7.mtdata:system/etc/camera/meitu/sucai7.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu3.mtdata:system/etc/camera/meitu/kujiu3.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu2.mtdata:system/etc/camera/meitu/kujiu2.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/overlayMap.mtdata:system/etc/camera/meitu/overlayMap.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/qingse1.mtdata:system/etc/camera/meitu/qingse1.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/meitu/kujiu5.mtdata:system/etc/camera/meitu/kujiu5.mtdata \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/hwscope/kernel:system/etc/camera/hwscope/kernel \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/hwscope/hwsz.xml:system/etc/camera/hwscope/hwsz.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/device.config:system/etc/camera/bshutter/device.config \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/imx214/algo.xml:system/etc/camera/bshutter/imx214/algo.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/imx214/info.xml:system/etc/camera/bshutter/imx214/info.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/default/algo.xml:system/etc/camera/bshutter/default/algo.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/default/info.xml:system/etc/camera/bshutter/default/info.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/device.config:system/etc/camera/davinci/device.config \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/hi542/imgproc.xml:system/etc/camera/davinci/hi542/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/hi542/cm_foliage.dat:system/etc/camera/davinci/hi542/cm_foliage.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/s5k4e1gx_foxconn/imgproc.xml:system/etc/camera/davinci/s5k4e1gx_foxconn/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/ov8830/imgproc.xml:system/etc/camera/davinci/ov8830/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/ov5648_sunny/imgproc.xml:system/etc/camera/davinci/ov5648_sunny/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/multiframe.xml:system/etc/camera/davinci/imx214_foxconn/multiframe.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_foliage_s.dat:system/etc/camera/davinci/imx214_foxconn/cm_foliage_s.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_normal_s.dat:system/etc/camera/davinci/imx214_foxconn/cm_normal_s.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_sky_s.dat:system/etc/camera/davinci/imx214_foxconn/cm_sky_s.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/imgproc.xml:system/etc/camera/davinci/imx214_foxconn/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_sky.dat:system/etc/camera/davinci/imx214_foxconn/cm_sky.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_sunset.dat:system/etc/camera/davinci/imx214_foxconn/cm_sunset.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_normal.dat:system/etc/camera/davinci/imx214_foxconn/cm_normal.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/imx214_foxconn/cm_foliage.dat:system/etc/camera/davinci/imx214_foxconn/cm_foliage.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/multiframe.xml:system/etc/camera/davinci/sonyimx135_liteon/multiframe.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_foliage_s.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_foliage_s.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_normal_s.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_normal_s.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_sky_s.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_sky_s.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/imgproc.xml:system/etc/camera/davinci/sonyimx135_liteon/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_sky.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_sky.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_sunset.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_sunset.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_normal.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_normal.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx135_liteon/cm_foliage.dat:system/etc/camera/davinci/sonyimx135_liteon/cm_foliage.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/ov5648_foxconn/imgproc.xml:system/etc/camera/davinci/ov5648_foxconn/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/s5k4e1ga_foxconn/imgproc.xml:system/etc/camera/davinci/s5k4e1ga_foxconn/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/s5k4e1ga_foxconn/cm_foliage.dat:system/etc/camera/davinci/s5k4e1ga_foxconn/cm_foliage.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/multiframe.xml:system/etc/camera/davinci/sonyimx134_liteon/multiframe.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_foliage_s.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_foliage_s.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_normal_s.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_normal_s.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_sky_s.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_sky_s.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/imgproc.xml:system/etc/camera/davinci/sonyimx134_liteon/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_sky.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_sky.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_sunset.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_sunset.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_normal.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_normal.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/sonyimx134_liteon/cm_foliage.dat:system/etc/camera/davinci/sonyimx134_liteon/cm_foliage.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/s5k4e1gx_sunny/imgproc.xml:system/etc/camera/davinci/s5k4e1gx_sunny/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_correction.dat:system/etc/camera/davinci/default/cm_correction.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/imgproc.xml:system/etc/camera/davinci/default/imgproc.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_sky.dat:system/etc/camera/davinci/default/cm_sky.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_sunset.dat:system/etc/camera/davinci/default/cm_sunset.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_normal.dat:system/etc/camera/davinci/default/cm_normal.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/davinci/default/cm_foliage.dat:system/etc/camera/davinci/default/cm_foliage.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/device.config:system/etc/camera/smartae/device.config \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/s5k4e1gx_foxconn/SmartAE.xml:system/etc/camera/smartae/s5k4e1gx_foxconn/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/ov5648_sunny/SmartAE.xml:system/etc/camera/smartae/ov5648_sunny/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/imx214_foxconn/SmartAE.xml:system/etc/camera/smartae/imx214_foxconn/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/sonyimx135_liteon/SmartAE.xml:system/etc/camera/smartae/sonyimx135_liteon/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/ov5648_foxconn/SmartAE.xml:system/etc/camera/smartae/ov5648_foxconn/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/s5k4e1ga_foxconn/SmartAE.xml:system/etc/camera/smartae/s5k4e1ga_foxconn/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/sonyimx134_sunny/SmartAE.xml:system/etc/camera/smartae/sonyimx134_sunny/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/sonyimx134_liteon/SmartAE.xml:system/etc/camera/smartae/sonyimx134_liteon/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/s5k4e1gx_sunny/SmartAE.xml:system/etc/camera/smartae/s5k4e1gx_sunny/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/smartae/imx214_sunny/SmartAE.xml:system/etc/camera/smartae/imx214_sunny/SmartAE.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/device.config:system/etc/camera/soft3aconfig/device.config \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/imx214_foxconn/soft3Aconfig.xml:system/etc/camera/soft3aconfig/imx214_foxconn/soft3Aconfig.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/sonyimx135_liteon/soft3Aconfig.xml:system/etc/camera/soft3aconfig/sonyimx135_liteon/soft3Aconfig.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/ov5648_foxconn/soft3Aconfig.xml:system/etc/camera/soft3aconfig/ov5648_foxconn/soft3Aconfig.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/s5k4e1ga_foxconn/soft3Aconfig.xml:system/etc/camera/soft3aconfig/s5k4e1ga_foxconn/soft3Aconfig.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/sonyimx134_sunny/soft3Aconfig.xml:system/etc/camera/soft3aconfig/sonyimx134_sunny/soft3Aconfig.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/sonyimx134_liteon/soft3Aconfig.xml:system/etc/camera/soft3aconfig/sonyimx134_liteon/soft3Aconfig.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/s5k4e1gx_sunny/soft3Aconfig.xml:system/etc/camera/soft3aconfig/s5k4e1gx_sunny/soft3Aconfig.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/soft3aconfig/imx214_sunny/soft3Aconfig.xml:system/etc/camera/soft3aconfig/imx214_sunny/soft3Aconfig.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tracking/targettracking.xml:system/etc/camera/tracking/targettracking.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/SunsetMinMaxTOA.txt:system/etc/camera/tornado/SunsetMinMaxTOA.txt \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/NightMinMaxTOA.txt:system/etc/camera/tornado/NightMinMaxTOA.txt \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/TornadoI.ini:system/etc/camera/tornado/TornadoI.ini \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/NightModelTOA.model:system/etc/camera/tornado/NightModelTOA.model \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/SunsetModelTOA.model:system/etc/camera/tornado/SunsetModelTOA.model \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/FoliageModelTOA.model:system/etc/camera/tornado/FoliageModelTOA.model \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/imx214_foxconn/TornadoI.ini:system/etc/camera/tornado/imx214_foxconn/TornadoI.ini \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx135_liteon/TornadoI.ini:system/etc/camera/tornado/sonyimx135_liteon/TornadoI.ini \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx214_foxconn/TornadoI.ini:system/etc/camera/tornado/sonyimx214_foxconn/TornadoI.ini \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx214_sunny/TornadoI.ini:system/etc/camera/tornado/sonyimx214_sunny/TornadoI.ini \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx134_sunny/TornadoI.ini:system/etc/camera/tornado/sonyimx134_sunny/TornadoI.ini \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/sonyimx134_liteon/TornadoI.ini:system/etc/camera/tornado/sonyimx134_liteon/TornadoI.ini \
-	$(LOCAL_PATH)/proprietary/system/etc/camera/tornado/imx214_sunny/TornadoI.ini:system/etc/camera/tornado/imx214_sunny/TornadoI.ini
+	$(LOCAL_PATH)/proprietary/system/bin/glgps47531cl:system/bin/glgps47531cl \
+	$(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
+	$(LOCAL_PATH)/proprietary/system/bin/glgps4752cl:system/bin/glgps4752cl \
+	$(LOCAL_PATH)/proprietary/system/bin/gpslogd:system/bin/gpslogd \
+	$(LOCAL_PATH)/proprietary/system/bin/hdmi_daemon:system/bin/hdmi_daemon \
+	$(LOCAL_PATH)/proprietary/system/bin/gpsdaemon:system/bin/gpsdaemon \
+	$(LOCAL_PATH)/proprietary/system/bin/glgps47531:system/bin/glgps47531 \
+	$(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
+	$(LOCAL_PATH)/proprietary/system/bin/hwpged:system/bin/hwpged \
+	$(LOCAL_PATH)/proprietary/system/bin/huawei_tp_test:system/bin/huawei_tp_test \
+	$(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
+	$(LOCAL_PATH)/proprietary/system/bin/thermal-daemon:system/bin/thermal-daemon \
+	$(LOCAL_PATH)/proprietary/system/bin/hw_cdmamodem_service:system/bin/hw_cdmamodem_service \
+	$(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver \
+	$(LOCAL_PATH)/proprietary/system/bin/hwnffserver:system/bin/hwnffserver \
+	$(LOCAL_PATH)/proprietary/system/bin/glgps4752:system/bin/glgps4752 \
+	$(LOCAL_PATH)/proprietary/system/bin/hdb:system/bin/hdb \
+	$(LOCAL_PATH)/proprietary/system/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
+	$(LOCAL_PATH)/proprietary/system/bin/storedefaultkey:system/bin/storedefaultkey \
+	$(LOCAL_PATH)/proprietary/system/bin/hw_ueventd:system/bin/hw_ueventd \
+	$(LOCAL_PATH)/proprietary/system/bin/gps4752logd:system/bin/gps4752logd
 
 
-# Total 449 files added on 2015-10-26T13:14:01.500989 UTC
+# Total 449 files added on 2015-10-27T07:14:43.820645 UTC
