@@ -17,6 +17,7 @@ adb pull system/lib/libhw_display_effect.so /proprietary/system/lib
 adb pull system/lib/libhidisk_security.so /proprietary/system/lib
 adb pull system/lib/libhuaweiaudioeffectutil.so /proprietary/system/lib
 adb pull system/lib/libhw_display_test.so /proprietary/system/lib
+adb pull system/lib/libcrypto.so /proprietary/system/lib
 adb pull system/lib/libhuawei_mmi_test.so /proprietary/system/lib
 adb pull system/lib/libHwMotionRecognition.so /proprietary/system/lib
 adb pull system/lib/libGLESv1_CM.so /proprietary/system/lib
@@ -55,6 +56,7 @@ adb pull system/lib/libGLESv2.so /proprietary/system/lib
 adb pull system/lib/libgui.so /proprietary/system/lib
 adb pull system/lib/libbalong-ril.so /proprietary/system/lib
 adb pull system/lib/libhwsmartdisplay_jni.so /proprietary/system/lib
+adb pull system/lib/libcrypto2.so /proprietary/system/lib
 adb pull system/lib/libconfig_interface.so /proprietary/system/lib
 adb pull system/lib/libhwtee_jni.so /proprietary/system/lib
 adb pull system/lib/libcamera_drv.so /proprietary/system/lib
@@ -484,4 +486,4 @@ adb pull system/bin/glgps4752 /proprietary/system/bin
 adb pull system/bin/hdb /proprietary/system/bin
 
 
-# Total 481 files added on 2016-04-12T18:08:02.673255 UTC
+# Total 483 files added on 2016-04-18T06:04:51.282455 UTC

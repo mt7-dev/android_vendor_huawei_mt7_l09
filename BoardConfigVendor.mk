@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libhidisk_security.so:system/lib/libhidisk_security.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioeffectutil.so:system/lib/libhuaweiaudioeffectutil.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhw_display_test.so:system/lib/libhw_display_test.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libcrypto.so:system/lib/libcrypto.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuawei_mmi_test.so:system/lib/libhuawei_mmi_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwMotionRecognition.so:system/lib/libHwMotionRecognition.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
@@ -63,6 +64,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libgui.so:system/lib/libgui.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwsmartdisplay_jni.so:system/lib/libhwsmartdisplay_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libcrypto2.so:system/lib/libcrypto2.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libconfig_interface.so:system/lib/libconfig_interface.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwtee_jni.so:system/lib/libhwtee_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcamera_drv.so:system/lib/libcamera_drv.so \
@@ -492,4 +494,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/hdb:system/bin/hdb
 
 
-# Total 481 files added on 2016-04-12T18:08:02.664461 UTC
+# Total 483 files added on 2016-04-18T06:04:51.273671 UTC
