@@ -6,7 +6,6 @@ adb pull system/ons.bin /proprietary/system
 adb pull system/isp/isp.bin /proprietary/system/isp
 adb pull system/lib/libmrc_cg_postprocess_postthread.so /proprietary/system/lib
 adb pull system/lib/libservices.huawei.so /proprietary/system/lib
-adb pull system/lib/libaudioflinger.so /proprietary/system/lib
 adb pull system/lib/libjni_mrc_cg_filters.so /proprietary/system/lib
 adb pull system/lib/libjni_tiltcorrection.so /proprietary/system/lib
 adb pull system/lib/libjni_morpho_filters.so /proprietary/system/lib
@@ -62,7 +61,6 @@ adb pull system/lib/libGLESv3.so /proprietary/system/lib
 adb pull system/lib/libjpu.so /proprietary/system/lib
 adb pull system/lib/libmorpho_memory_allocator.so /proprietary/system/lib
 adb pull system/lib/libavcodec.so /proprietary/system/lib
-adb pull system/lib/libinput.so /proprietary/system/lib
 adb pull system/lib/libjnigraphics.so /proprietary/system/lib
 adb pull system/lib/libhwaps.so /proprietary/system/lib
 adb pull system/lib/libCameraHwSendCmd.so /proprietary/system/lib
@@ -90,7 +88,6 @@ adb pull system/lib/libjni_front_panorama_camera.so /proprietary/system/lib
 adb pull system/lib/libmrc_cg_sz.so /proprietary/system/lib
 adb pull system/lib/libjni_mrc_cg_filters_camera.so /proprietary/system/lib
 adb pull system/lib/libCameraHwCallBack.so /proprietary/system/lib
-adb pull system/lib/libinputflinger.so /proprietary/system/lib
 adb pull system/lib/libGLESv2.so /proprietary/system/lib
 adb pull system/lib/libmtfilters.so /proprietary/system/lib
 adb pull system/lib/libjni_latinime.so /proprietary/system/lib
@@ -98,7 +95,6 @@ adb pull system/lib/liboeminfo.so /proprietary/system/lib
 adb pull system/lib/libmrc_cg_post_sz.so /proprietary/system/lib
 adb pull system/lib/libmorpho_effect_post_library5.so /proprietary/system/lib
 adb pull system/lib/libsonic.so /proprietary/system/lib
-adb pull system/lib/liblog.so /proprietary/system/lib
 adb pull system/lib/libbalong-ril.so /proprietary/system/lib
 adb pull system/lib/libjni_eglfence.so /proprietary/system/lib
 adb pull system/lib/libhwsmartdisplay_jni.so /proprietary/system/lib
@@ -115,14 +111,12 @@ adb pull system/lib/libaudioalgoservice_jni.so /proprietary/system/lib
 adb pull system/lib/libvio.so /proprietary/system/lib
 adb pull system/lib/libgnuexif.so /proprietary/system/lib
 adb pull system/lib/libatpswdck.so /proprietary/system/lib
-adb pull system/lib/libhardware.so /proprietary/system/lib
 adb pull system/lib/libjni_mrc_cg_hazeremoval.so /proprietary/system/lib
 adb pull system/lib/libfm_jni.so /proprietary/system/lib
 adb pull system/lib/libjni_feminine_filters.so /proprietary/system/lib
 adb pull system/lib/librtp_jni.so /proprietary/system/lib
 adb pull system/lib/libhwgl.so /proprietary/system/lib
 adb pull system/lib/libjni_omron_facebeautifier.so /proprietary/system/lib
-adb pull system/lib/libcameraservice.so /proprietary/system/lib
 adb pull system/lib/libfm_hal.so /proprietary/system/lib
 adb pull system/lib/lib_k3_ffmpeg.so /proprietary/system/lib
 adb pull system/lib/libCameraHwParam.so /proprietary/system/lib
@@ -140,7 +134,6 @@ adb pull system/lib/libHwManufactureCustEx_jni.so /proprietary/system/lib
 adb pull system/lib/lib_atprotocolsw.so /proprietary/system/lib
 adb pull system/lib/libbalong_audio_ril.so /proprietary/system/lib
 adb pull system/lib/libvpp.so /proprietary/system/lib
-adb pull system/lib/libui.so /proprietary/system/lib
 adb pull system/lib/libsrsprocessing.so /proprietary/system/lib
 adb pull system/lib/libhwpwmanager_jni.so /proprietary/system/lib
 adb pull system/lib/libfm_interface.so /proprietary/system/lib
@@ -544,16 +537,14 @@ adb pull system/bin/hdmi_daemon /proprietary/system/bin
 adb pull system/bin/hwnff /proprietary/system/bin
 adb pull system/bin/atcmdserver /proprietary/system/bin
 adb pull system/bin/glgps47531 /proprietary/system/bin
-adb pull system/bin/device_monitor /proprietary/system/bin
 adb pull system/bin/gpslogd /proprietary/system/bin
 adb pull system/bin/hw_ueventd /proprietary/system/bin
 adb pull system/bin/vold /proprietary/system/bin
 adb pull system/bin/rild /proprietary/system/bin
-adb pull system/bin/thermal-daemon /proprietary/system/bin
 adb pull system/bin/gps4752logd /proprietary/system/bin
 adb pull system/bin/hw_cdmamodem_service /proprietary/system/bin
 adb pull system/bin/hwpged /proprietary/system/bin
 adb pull system/bin/glgps4752 /proprietary/system/bin
 
 
-# Total 553 files added on 2016-04-20T17:39:32.575329 UTC
+# Total 544 files added on 2016-04-20T22:15:49.822367 UTC

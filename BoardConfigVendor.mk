@@ -14,7 +14,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/isp/isp.bin:system/isp/isp.bin \
 	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_postprocess_postthread.so:system/lib/libmrc_cg_postprocess_postthread.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libservices.huawei.so:system/lib/libservices.huawei.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_filters.so:system/lib/libjni_mrc_cg_filters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_tiltcorrection.so:system/lib/libjni_tiltcorrection.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_morpho_filters.so:system/lib/libjni_morpho_filters.so \
@@ -70,7 +69,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libjpu.so:system/lib/libjpu.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libavcodec.so:system/lib/libavcodec.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libinput.so:system/lib/libinput.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwaps.so:system/lib/libhwaps.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwSendCmd.so:system/lib/libCameraHwSendCmd.so \
@@ -98,7 +96,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_sz.so:system/lib/libmrc_cg_sz.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_filters_camera.so:system/lib/libjni_mrc_cg_filters_camera.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwCallBack.so:system/lib/libCameraHwCallBack.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libinputflinger.so:system/lib/libinputflinger.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libGLESv2.so:system/lib/libGLESv2.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmtfilters.so:system/lib/libmtfilters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
@@ -106,7 +103,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_post_sz.so:system/lib/libmrc_cg_post_sz.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmorpho_effect_post_library5.so:system/lib/libmorpho_effect_post_library5.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libsonic.so:system/lib/libsonic.so \
-	$(LOCAL_PATH)/proprietary/system/lib/liblog.so:system/lib/liblog.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwsmartdisplay_jni.so:system/lib/libhwsmartdisplay_jni.so \
@@ -123,14 +119,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libvio.so:system/lib/libvio.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libatpswdck.so:system/lib/libatpswdck.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhardware.so:system/lib/libhardware.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_hazeremoval.so:system/lib/libjni_mrc_cg_hazeremoval.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfm_jni.so:system/lib/libfm_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_feminine_filters.so:system/lib/libjni_feminine_filters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/librtp_jni.so:system/lib/librtp_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwgl.so:system/lib/libhwgl.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_omron_facebeautifier.so:system/lib/libjni_omron_facebeautifier.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfm_hal.so:system/lib/libfm_hal.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_k3_ffmpeg.so:system/lib/lib_k3_ffmpeg.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwParam.so:system/lib/libCameraHwParam.so \
@@ -148,7 +142,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_atprotocolsw.so:system/lib/lib_atprotocolsw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libvpp.so:system/lib/libvpp.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libui.so:system/lib/libui.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwpwmanager_jni.so:system/lib/libhwpwmanager_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfm_interface.so:system/lib/libfm_interface.so \
@@ -552,16 +545,14 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
 	$(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver \
 	$(LOCAL_PATH)/proprietary/system/bin/glgps47531:system/bin/glgps47531 \
-	$(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
 	$(LOCAL_PATH)/proprietary/system/bin/gpslogd:system/bin/gpslogd \
 	$(LOCAL_PATH)/proprietary/system/bin/hw_ueventd:system/bin/hw_ueventd \
 	$(LOCAL_PATH)/proprietary/system/bin/vold:system/bin/vold \
 	$(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
-	$(LOCAL_PATH)/proprietary/system/bin/thermal-daemon:system/bin/thermal-daemon \
 	$(LOCAL_PATH)/proprietary/system/bin/gps4752logd:system/bin/gps4752logd \
 	$(LOCAL_PATH)/proprietary/system/bin/hw_cdmamodem_service:system/bin/hw_cdmamodem_service \
 	$(LOCAL_PATH)/proprietary/system/bin/hwpged:system/bin/hwpged \
 	$(LOCAL_PATH)/proprietary/system/bin/glgps4752:system/bin/glgps4752
 
 
-# Total 553 files added on 2016-04-20T17:39:32.533247 UTC
+# Total 544 files added on 2016-04-20T22:15:49.813590 UTC
