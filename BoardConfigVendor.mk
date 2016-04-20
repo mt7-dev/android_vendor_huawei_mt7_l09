@@ -12,78 +12,199 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/ons.bin:system/ons.bin \
 	$(LOCAL_PATH)/proprietary/system/isp/isp.bin:system/isp/isp.bin \
+	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_postprocess_postthread.so:system/lib/libmrc_cg_postprocess_postthread.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libservices.huawei.so:system/lib/libservices.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_filters.so:system/lib/libjni_mrc_cg_filters.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_tiltcorrection.so:system/lib/libjni_tiltcorrection.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_morpho_filters.so:system/lib/libjni_morpho_filters.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libkeystore_binder.so:system/lib/libkeystore_binder.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_opusdec.so:system/lib/libstagefright_soft_opusdec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdrmbitmap.huawei.so:system/lib/libdrmbitmap.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libexif.so:system/lib/libexif.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libnvme.so:system/lib/libnvme.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjnidcamera_visual_effect.so:system/lib/libjnidcamera_visual_effect.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libaes.so:system/lib/libaes.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.huawei.so:system/lib/libaudioflinger.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libomx_vxd.so:system/lib/libomx_vxd.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libVideoDenoise.so:system/lib/libVideoDenoise.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmtp.huawei.so:system/lib/libmtp.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcamera_core.so:system/lib/libcamera_core.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libTHImageOCR.so:system/lib/libTHImageOCR.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libomx_vxe.so:system/lib/libomx_vxe.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwtheme_jni.so:system/lib/libhwtheme_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjhead.so:system/lib/libjhead.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libssl2.so:system/lib/libssl2.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhisi_efuse.so:system/lib/libhisi_efuse.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.so:system/lib/libstagefright.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libperfhub.so:system/lib/libperfhub.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhw_display_effect.so:system/lib/libhw_display_effect.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhidisk_security.so:system/lib/libhidisk_security.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libicuuc.so:system/lib/libicuuc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioeffectutil.so:system/lib/libhuaweiaudioeffectutil.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_mpeg4dec.so:system/lib/libstagefright_soft_mpeg4dec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_mp3dec.so:system/lib/libstagefright_soft_mp3dec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhw_display_test.so:system/lib/libhw_display_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcrypto.so:system/lib/libcrypto.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_aacenc.so:system/lib/libstagefright_soft_aacenc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuawei_mmi_test.so:system/lib/libhuawei_mmi_test.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libpdfium.so:system/lib/libpdfium.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhelixplayerwrapper.so:system/lib/libhelixplayerwrapper.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwMotionRecognition.so:system/lib/libHwMotionRecognition.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjhead_jni.so:system/lib/libjhead_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_oeminfo_interface.so:system/lib/lib_oeminfo_interface.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_http_support.so:system/lib/libstagefright_http_support.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtfa9887.so:system/lib/libtfa9887.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.huawei.so:system/lib/libstagefright.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmediarecorder.huawei.so:system/lib/libmediarecorder.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-1.so:system/lib/libbalong-ril-1.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioalgoservice.so:system/lib/libhuaweiaudioalgoservice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libkeymaster_messages.so:system/lib/libkeymaster_messages.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmedia.so:system/lib/libmedia.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwouc_jni.so:system/lib/libhwouc_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libssl.so:system/lib/libssl.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libkeymaster1.so:system/lib/libkeymaster1.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_sf.so:system/lib/lib_hwnsd_sf.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libkeystore-engine.so:system/lib/libkeystore-engine.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_client.so:system/lib/libperfhub_client.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgralloc_ext.default.so:system/lib/libgralloc_ext.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libEGL.so:system/lib/libEGL.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioom.so:system/lib/libaudioom.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_amrdec.so:system/lib/libstagefright_soft_amrdec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwMMITestCustEx_jni.so:system/lib/libHwMMITestCustEx_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_rawdec.so:system/lib/libstagefright_soft_rawdec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libLLVM.so:system/lib/libLLVM.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libpowergenie_native3.so:system/lib/libpowergenie_native3.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.huawei.so:system/lib/libmedia_jni.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_filters.so:system/lib/libmrc_cg_filters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libGLESv3.so:system/lib/libGLESv3.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjpu.so:system/lib/libjpu.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libavcodec.so:system/lib/libavcodec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libinput.so:system/lib/libinput.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_avcdec.so:system/lib/libstagefright_soft_avcdec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwaps.so:system/lib/libhwaps.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwSendCmd.so:system/lib/libCameraHwSendCmd.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libvixl.so:system/lib/libvixl.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwlog_jni.so:system/lib/libhwlog_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_service.so:system/lib/libperfhub_service.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfm_volume.so:system/lib/libfm_volume.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHW_BShutter.so:system/lib/libHW_BShutter.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHW_Pano_f.so:system/lib/libHW_Pano_f.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libicui18n.so:system/lib/libicui18n.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfingersense.so:system/lib/libfingersense.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHWExtDeviceService.so:system/lib/libHWExtDeviceService.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwui.so:system/lib/libhwui.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegaudiodec.so:system/lib/libstagefright_soft_ffmpegaudiodec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_mpeg4enc.so:system/lib/libstagefright_soft_mpeg4enc.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwExtend.so:system/lib/libCameraHwExtend.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_httplive.so:system/lib/libstagefright_httplive.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libRSSupport.so:system/lib/libRSSupport.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libvorbisidec.so:system/lib/libvorbisidec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_vorbisdec.so:system/lib/libstagefright_soft_vorbisdec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_nve_operation.so:system/lib/lib_nve_operation.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwsign.so:system/lib/libhwsign.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwExtendedExtractor.so:system/lib/libHwExtendedExtractor.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_SFBE.so:system/lib/libjni_SFBE.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjpegenchw.so:system/lib/libjpegenchw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_yuv.so:system/lib/libstagefright_yuv.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_front_panorama_camera.so:system/lib/libjni_front_panorama_camera.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_sz.so:system/lib/libmrc_cg_sz.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_filters_camera.so:system/lib/libjni_mrc_cg_filters_camera.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libwilhelm.so:system/lib/libwilhelm.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwCallBack.so:system/lib/libCameraHwCallBack.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libinputflinger.so:system/lib/libinputflinger.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmtp.so:system/lib/libmtp.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libGLESv2.so:system/lib/libGLESv2.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libgui.so:system/lib/libgui.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_gsmdec.so:system/lib/libstagefright_soft_gsmdec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmtfilters.so:system/lib/libmtfilters.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+	$(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_avcenc.so:system/lib/libstagefright_soft_avcenc.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_post_sz.so:system/lib/libmrc_cg_post_sz.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmorpho_effect_post_library5.so:system/lib/libmorpho_effect_post_library5.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libsonic.so:system/lib/libsonic.so \
+	$(LOCAL_PATH)/proprietary/system/lib/liblog.so:system/lib/liblog.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwsmartdisplay_jni.so:system/lib/libhwsmartdisplay_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcrypto2.so:system/lib/libcrypto2.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libconfig_interface.so:system/lib/libconfig_interface.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_post_mfdenoise.so:system/lib/libmrc_cg_post_mfdenoise.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omxcore.so:system/lib/lib_k3_omxcore.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_post_filters.so:system/lib/libmrc_cg_post_filters.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libandroidfw.so:system/lib/libandroidfw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwtee_jni.so:system/lib/libhwtee_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegvideodec.so:system/lib/libstagefright_soft_ffmpegvideodec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcamera_drv.so:system/lib/libcamera_drv.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwextdevice.so:system/lib/libhwextdevice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libaudioalgoservice_jni.so:system/lib/libaudioalgoservice_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libvio.so:system/lib/libvio.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libatpswdck.so:system/lib/libatpswdck.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhardware.so:system/lib/libhardware.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_amrnbenc.so:system/lib/libstagefright_soft_amrnbenc.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_hazeremoval.so:system/lib/libjni_mrc_cg_hazeremoval.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfm_jni.so:system/lib/libfm_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_feminine_filters.so:system/lib/libjni_feminine_filters.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_amrwbenc.so:system/lib/libstagefright_soft_amrwbenc.so \
+	$(LOCAL_PATH)/proprietary/system/lib/librtp_jni.so:system/lib/librtp_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwgl.so:system/lib/libhwgl.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_flacenc.so:system/lib/libstagefright_soft_flacenc.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_omron_facebeautifier.so:system/lib/libjni_omron_facebeautifier.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfm_hal.so:system/lib/libfm_hal.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_g711dec.so:system/lib/libstagefright_soft_g711dec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libsoftkeymaster.so:system/lib/libsoftkeymaster.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_k3_ffmpeg.so:system/lib/lib_k3_ffmpeg.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwParam.so:system/lib/libCameraHwParam.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhelixplayer.so:system/lib/libhelixplayer.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwdeviceinfo.so:system/lib/libhwdeviceinfo.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgralloc_ext.so:system/lib/libgralloc_ext.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libvpu.so:system/lib/libvpu.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_input.so:system/lib/lib_hwnsd_input.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_mpeg2dec.so:system/lib/libstagefright_soft_mpeg2dec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_bardian_filter_effect.so:system/lib/libjni_bardian_filter_effect.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_vpxdec.so:system/lib/libstagefright_soft_vpxdec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweigpsrpc.so:system/lib/libhuaweigpsrpc.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_enc_common.so:system/lib/libstagefright_enc_common.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwTmr.so:system/lib/libHwTmr.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjni_pacprocessor.so:system/lib/libjni_pacprocessor.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwManufactureCustEx_jni.so:system/lib/libHwManufactureCustEx_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_atprotocolsw.so:system/lib/lib_atprotocolsw.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_vpxenc.so:system/lib/libstagefright_soft_vpxenc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwuibp.so:system/lib/libhwuibp.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libsoftkeymasterdevice.so:system/lib/libsoftkeymasterdevice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_hevcdec.so:system/lib/libstagefright_soft_hevcdec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libvpp.so:system/lib/libvpp.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libui.so:system/lib/libui.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwpwmanager_jni.so:system/lib/libhwpwmanager_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfm_interface.so:system/lib/libfm_interface.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
+	$(LOCAL_PATH)/proprietary/system/lib/liboeminfo_jni.so:system/lib/liboeminfo_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/power.default.so:system/lib/hw/power.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
@@ -471,13 +592,13 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
 	$(LOCAL_PATH)/proprietary/system/vendor/framework/com.huawei.audioalgo.jar:system/vendor/framework/com.huawei.audioalgo.jar \
 	$(LOCAL_PATH)/proprietary/system/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-	$(LOCAL_PATH)/proprietary/system/bin/huawei_tp_test:system/bin/huawei_tp_test \
 	$(LOCAL_PATH)/proprietary/system/bin/hwnffserver:system/bin/hwnffserver \
 	$(LOCAL_PATH)/proprietary/system/bin/glgps4752cl:system/bin/glgps4752cl \
 	$(LOCAL_PATH)/proprietary/system/bin/glgps47531cl:system/bin/glgps47531cl \
 	$(LOCAL_PATH)/proprietary/system/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
 	$(LOCAL_PATH)/proprietary/system/bin/storedefaultkey:system/bin/storedefaultkey \
 	$(LOCAL_PATH)/proprietary/system/bin/gpsdaemon:system/bin/gpsdaemon \
+	$(LOCAL_PATH)/proprietary/system/bin/drmserver:system/bin/drmserver \
 	$(LOCAL_PATH)/proprietary/system/bin/hdmi_daemon:system/bin/hdmi_daemon \
 	$(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
 	$(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver \
@@ -485,13 +606,13 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
 	$(LOCAL_PATH)/proprietary/system/bin/gpslogd:system/bin/gpslogd \
 	$(LOCAL_PATH)/proprietary/system/bin/hw_ueventd:system/bin/hw_ueventd \
+	$(LOCAL_PATH)/proprietary/system/bin/vold:system/bin/vold \
 	$(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/system/bin/thermal-daemon:system/bin/thermal-daemon \
 	$(LOCAL_PATH)/proprietary/system/bin/gps4752logd:system/bin/gps4752logd \
 	$(LOCAL_PATH)/proprietary/system/bin/hw_cdmamodem_service:system/bin/hw_cdmamodem_service \
 	$(LOCAL_PATH)/proprietary/system/bin/hwpged:system/bin/hwpged \
-	$(LOCAL_PATH)/proprietary/system/bin/glgps4752:system/bin/glgps4752 \
-	$(LOCAL_PATH)/proprietary/system/bin/hdb:system/bin/hdb
+	$(LOCAL_PATH)/proprietary/system/bin/glgps4752:system/bin/glgps4752
 
 
-# Total 483 files added on 2016-04-18T06:04:51.273671 UTC
+# Total 604 files added on 2016-04-20T12:55:46.894902 UTC
