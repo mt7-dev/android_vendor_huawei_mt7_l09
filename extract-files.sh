@@ -668,4 +668,4 @@ adb pull system/usr/keylayout/Vendor_0b05_Product_4500.kl /proprietary/system/us
 adb pull system/usr/keylayout/Vendor_046d_Product_c216.kl /proprietary/system/usr/keylayout
 
 
-# Total 665 files added on 2016-04-21T19:10:12.699170 UTC
+# Total 665 files added on 2016-04-23T14:28:07.545495 UTC

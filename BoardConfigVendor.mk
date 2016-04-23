@@ -676,4 +676,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 665 files added on 2016-04-21T19:10:12.697796 UTC
+# Total 665 files added on 2016-04-23T14:28:07.503343 UTC
