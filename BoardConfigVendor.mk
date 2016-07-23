@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libnvme.so:system/lib/libnvme.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjnidcamera_visual_effect.so:system/lib/libjnidcamera_visual_effect.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libaes.so:system/lib/libaes.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.huawei.so:system/lib/libaudioflinger.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libomx_vxd.so:system/lib/libomx_vxd.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libVideoDenoise.so:system/lib/libVideoDenoise.so \
@@ -47,8 +48,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_oeminfo_interface.so:system/lib/lib_oeminfo_interface.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtfa9887.so:system/lib/libtfa9887.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfaclog.so:system/lib/libfaclog.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.huawei.so:system/lib/libstagefright.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmediarecorder.huawei.so:system/lib/libmediarecorder.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-1.so:system/lib/libbalong-ril-1.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioalgoservice.so:system/lib/libhuaweiaudioalgoservice.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
@@ -69,6 +72,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libjpu.so:system/lib/libjpu.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libavcodec.so:system/lib/libavcodec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libconn_factory_test.so:system/lib/libconn_factory_test.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libcgroup.so:system/lib/libcgroup.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwaps.so:system/lib/libhwaps.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwSendCmd.so:system/lib/libCameraHwSendCmd.so \
@@ -83,6 +88,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfingersense.so:system/lib/libfingersense.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHWExtDeviceService.so:system/lib/libHWExtDeviceService.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwExtend.so:system/lib/libCameraHwExtend.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libRSSupport.so:system/lib/libRSSupport.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libvorbisidec.so:system/lib/libvorbisidec.so \
@@ -117,6 +123,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwextdevice.so:system/lib/libhwextdevice.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioalgoservice_jni.so:system/lib/libaudioalgoservice_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libvio.so:system/lib/libvio.so \
+	$(LOCAL_PATH)/proprietary/system/lib/librpc.so:system/lib/librpc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libatpswdck.so:system/lib/libatpswdck.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_hazeremoval.so:system/lib/libjni_mrc_cg_hazeremoval.so \
@@ -135,6 +142,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_input.so:system/lib/lib_hwnsd_input.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_bardian_filter_effect.so:system/lib/libjni_bardian_filter_effect.so \
+	$(LOCAL_PATH)/proprietary/system/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweigpsrpc.so:system/lib/libhuaweigpsrpc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwTmr.so:system/lib/libHwTmr.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_pacprocessor.so:system/lib/libjni_pacprocessor.so \
@@ -180,6 +188,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/camera.hi3630.so:system/lib/hw/camera.hi3630.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.default.so:system/lib/hw/hwcomposer.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.hi3630.so:system/lib/hw/audio.primary.hi3630.so \
+	$(LOCAL_PATH)/proprietary/system/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/gps4752config_cl.xml:system/etc/gps4752config_cl.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/gps4752config.xml:system/etc/gps4752config.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/gps47531config.xml:system/etc/gps47531config.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/gps.conf:system/etc/gps.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/viacbp82d_shutdown_log.bcfg:system/etc/modemConfig/viacbp82d_shutdown_log.bcfg \
 	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/SystemCmd.cmf:system/etc/modemConfig/SystemCmd.cmf \
 	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/viacbp82d_log.bcfg:system/etc/modemConfig/viacbp82d_log.bcfg \
@@ -676,4 +689,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 665 files added on 2016-04-23T14:28:07.503343 UTC
+# Total 678 files added on 2016-07-23T17:35:00.150269 UTC

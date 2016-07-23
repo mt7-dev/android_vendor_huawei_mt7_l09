@@ -14,6 +14,7 @@ adb pull system/lib/libexif.so /proprietary/system/lib
 adb pull system/lib/libnvme.so /proprietary/system/lib
 adb pull system/lib/libjnidcamera_visual_effect.so /proprietary/system/lib
 adb pull system/lib/libhuaweiprocessing.so /proprietary/system/lib
+adb pull system/lib/libaes.so /proprietary/system/lib
 adb pull system/lib/libaudioflinger.huawei.so /proprietary/system/lib
 adb pull system/lib/libomx_vxd.so /proprietary/system/lib
 adb pull system/lib/libVideoDenoise.so /proprietary/system/lib
@@ -39,8 +40,10 @@ adb pull system/lib/libGLESv1_CM.so /proprietary/system/lib
 adb pull system/lib/libmorpho_effect_library5.so /proprietary/system/lib
 adb pull system/lib/lib_oeminfo_interface.so /proprietary/system/lib
 adb pull system/lib/libtfa9887.so /proprietary/system/lib
+adb pull system/lib/libfaclog.so /proprietary/system/lib
 adb pull system/lib/libstagefright.huawei.so /proprietary/system/lib
 adb pull system/lib/libmediarecorder.huawei.so /proprietary/system/lib
+adb pull system/lib/libteec.so /proprietary/system/lib
 adb pull system/lib/libbalong-ril-1.so /proprietary/system/lib
 adb pull system/lib/libhuaweiaudioalgoservice.so /proprietary/system/lib
 adb pull system/lib/libmrc_cg_mfdenoise.so /proprietary/system/lib
@@ -61,6 +64,8 @@ adb pull system/lib/libGLESv3.so /proprietary/system/lib
 adb pull system/lib/libjpu.so /proprietary/system/lib
 adb pull system/lib/libmorpho_memory_allocator.so /proprietary/system/lib
 adb pull system/lib/libavcodec.so /proprietary/system/lib
+adb pull system/lib/libconn_factory_test.so /proprietary/system/lib
+adb pull system/lib/libcgroup.so /proprietary/system/lib
 adb pull system/lib/libjnigraphics.so /proprietary/system/lib
 adb pull system/lib/libhwaps.so /proprietary/system/lib
 adb pull system/lib/libCameraHwSendCmd.so /proprietary/system/lib
@@ -75,6 +80,7 @@ adb pull system/lib/libicui18n.so /proprietary/system/lib
 adb pull system/lib/libgps_factory_test.so /proprietary/system/lib
 adb pull system/lib/libfingersense.so /proprietary/system/lib
 adb pull system/lib/libHWExtDeviceService.so /proprietary/system/lib
+adb pull system/lib/libviagpsrpc.so /proprietary/system/lib
 adb pull system/lib/libCameraHwExtend.so /proprietary/system/lib
 adb pull system/lib/libRSSupport.so /proprietary/system/lib
 adb pull system/lib/libvorbisidec.so /proprietary/system/lib
@@ -109,6 +115,7 @@ adb pull system/lib/libcamera_drv.so /proprietary/system/lib
 adb pull system/lib/libhwextdevice.so /proprietary/system/lib
 adb pull system/lib/libaudioalgoservice_jni.so /proprietary/system/lib
 adb pull system/lib/libvio.so /proprietary/system/lib
+adb pull system/lib/librpc.so /proprietary/system/lib
 adb pull system/lib/libgnuexif.so /proprietary/system/lib
 adb pull system/lib/libatpswdck.so /proprietary/system/lib
 adb pull system/lib/libjni_mrc_cg_hazeremoval.so /proprietary/system/lib
@@ -127,6 +134,7 @@ adb pull system/lib/libvpu.so /proprietary/system/lib
 adb pull system/lib/lib_hwnsd_input.so /proprietary/system/lib
 adb pull system/lib/libGLES_trace.so /proprietary/system/lib
 adb pull system/lib/libjni_bardian_filter_effect.so /proprietary/system/lib
+adb pull system/lib/librilutils.so /proprietary/system/lib
 adb pull system/lib/libhuaweigpsrpc.so /proprietary/system/lib
 adb pull system/lib/libHwTmr.so /proprietary/system/lib
 adb pull system/lib/libjni_pacprocessor.so /proprietary/system/lib
@@ -172,6 +180,11 @@ adb pull system/lib/hw/gralloc.hi3630.so /proprietary/system/lib/hw
 adb pull system/lib/hw/camera.hi3630.so /proprietary/system/lib/hw
 adb pull system/lib/hw/hwcomposer.default.so /proprietary/system/lib/hw
 adb pull system/lib/hw/audio.primary.hi3630.so /proprietary/system/lib/hw
+adb pull system/etc/gps47531config_cl.xml /proprietary/system/etc
+adb pull system/etc/gps4752config_cl.xml /proprietary/system/etc
+adb pull system/etc/gps4752config.xml /proprietary/system/etc
+adb pull system/etc/gps47531config.xml /proprietary/system/etc
+adb pull system/etc/gps.conf /proprietary/system/etc
 adb pull system/etc/modemConfig/viacbp82d_shutdown_log.bcfg /proprietary/system/etc/modemConfig
 adb pull system/etc/modemConfig/SystemCmd.cmf /proprietary/system/etc/modemConfig
 adb pull system/etc/modemConfig/viacbp82d_log.bcfg /proprietary/system/etc/modemConfig
@@ -668,4 +681,4 @@ adb pull system/usr/keylayout/Vendor_0b05_Product_4500.kl /proprietary/system/us
 adb pull system/usr/keylayout/Vendor_046d_Product_c216.kl /proprietary/system/usr/keylayout
 
 
-# Total 665 files added on 2016-04-23T14:28:07.545495 UTC
+# Total 678 files added on 2016-07-23T17:35:00.158960 UTC
