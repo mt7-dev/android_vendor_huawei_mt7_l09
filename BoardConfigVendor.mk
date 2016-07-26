@@ -1,7 +1,7 @@
 # Automatically generated file by generate_files.py
 # Script by gabry3795 - gabry.gabry <at> hotmail.it
 
-LOCAL_PATH := vendor/huawei/mt7_l09
+LOCAL_PATH := vendor/huawei/mt7l09
 
 
 
