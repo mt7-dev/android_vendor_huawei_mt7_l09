@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_filters.so:system/lib/libjni_mrc_cg_filters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_tiltcorrection.so:system/lib/libjni_tiltcorrection.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/l_i_b_b_luetooth_jni.so:system/lib/l_i_b_b_luetooth_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_morpho_filters.so:system/lib/libjni_morpho_filters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libwpa_client.so:system/lib/libwpa_client.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdrmbitmap.huawei.so:system/lib/libdrmbitmap.huawei.so \
@@ -29,7 +30,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudiospdif.so:system/lib/libaudiospdif.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjnidcamera_visual_effect.so:system/lib/libjnidcamera_visual_effect.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaes.so:system/lib/libaes.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.huawei.so:system/lib/libaudioflinger.huawei.so \
@@ -121,7 +121,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHW_Pano_f.so:system/lib/libHW_Pano_f.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmmiautotest.so:system/lib/libmmiautotest.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libicui18n.so:system/lib/libicui18n.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfingersense.so:system/lib/libfingersense.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHWExtDeviceService.so:system/lib/libHWExtDeviceService.so \
@@ -130,9 +129,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libnfc_nci_jni.so:system/lib/libnfc_nci_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libRSSupport.so:system/lib/libRSSupport.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libskia.so:system/lib/libskia.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libutils.so:system/lib/libutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libvorbisidec.so:system/lib/libvorbisidec.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwui.so:system/lib/libhwui.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_nve_operation.so:system/lib/lib_nve_operation.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwsign.so:system/lib/libhwsign.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwExtendedExtractor.so:system/lib/libHwExtendedExtractor.so \
@@ -668,6 +665,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/imx214/algo.xml:system/etc/camera/bshutter/imx214/algo.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/default/info.xml:system/etc/camera/bshutter/default/info.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/camera/bshutter/default/algo.xml:system/etc/camera/bshutter/default/algo.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/bluetooth/bt_stack_beta.conf:system/etc/bluetooth/bt_stack_beta.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/bluetooth/bt_stack_log.conf:system/etc/bluetooth/bt_stack_log.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_mogolia_ulg.txt:system/vendor/firmware/nvram4334_hw_mogolia_ulg.txt \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_mogolia_ulca.txt:system/vendor/firmware/nvram4334_hw_mogolia_ulca.txt \
@@ -871,4 +874,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 860 files added on 2016-07-28T19:21:08.783520 UTC
+# Total 863 files added on 2016-07-28T21:59:38.103369 UTC

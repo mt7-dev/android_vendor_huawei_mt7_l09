@@ -12,6 +12,7 @@ adb pull system/lib/libaudioflinger.so /proprietary/system/lib
 adb pull system/lib/libjni_mrc_cg_filters.so /proprietary/system/lib
 adb pull system/lib/libjni_tiltcorrection.so /proprietary/system/lib
 adb pull system/lib/libmedia_jni.so /proprietary/system/lib
+adb pull system/lib/l_i_b_b_luetooth_jni.so /proprietary/system/lib
 adb pull system/lib/libjni_morpho_filters.so /proprietary/system/lib
 adb pull system/lib/libwpa_client.so /proprietary/system/lib
 adb pull system/lib/libdrmbitmap.huawei.so /proprietary/system/lib
@@ -21,7 +22,6 @@ adb pull system/lib/libnvme.so /proprietary/system/lib
 adb pull system/lib/libaudiospdif.so /proprietary/system/lib
 adb pull system/lib/libjnidcamera_visual_effect.so /proprietary/system/lib
 adb pull system/lib/libhuaweiprocessing.so /proprietary/system/lib
-adb pull system/lib/libbluetooth_jni.so /proprietary/system/lib
 adb pull system/lib/libaudiopolicymanager.so /proprietary/system/lib
 adb pull system/lib/libaes.so /proprietary/system/lib
 adb pull system/lib/libaudioflinger.huawei.so /proprietary/system/lib
@@ -113,7 +113,6 @@ adb pull system/lib/libHW_BShutter.so /proprietary/system/lib
 adb pull system/lib/libhardware_legacy.so /proprietary/system/lib
 adb pull system/lib/libHW_Pano_f.so /proprietary/system/lib
 adb pull system/lib/libmmiautotest.so /proprietary/system/lib
-adb pull system/lib/libicui18n.so /proprietary/system/lib
 adb pull system/lib/libgps_factory_test.so /proprietary/system/lib
 adb pull system/lib/libfingersense.so /proprietary/system/lib
 adb pull system/lib/libHWExtDeviceService.so /proprietary/system/lib
@@ -122,9 +121,7 @@ adb pull system/lib/libCameraHwExtend.so /proprietary/system/lib
 adb pull system/lib/libnfc_nci_jni.so /proprietary/system/lib
 adb pull system/lib/libRSSupport.so /proprietary/system/lib
 adb pull system/lib/libskia.so /proprietary/system/lib
-adb pull system/lib/libutils.so /proprietary/system/lib
 adb pull system/lib/libvorbisidec.so /proprietary/system/lib
-adb pull system/lib/libhwui.so /proprietary/system/lib
 adb pull system/lib/lib_nve_operation.so /proprietary/system/lib
 adb pull system/lib/libhwsign.so /proprietary/system/lib
 adb pull system/lib/libHwExtendedExtractor.so /proprietary/system/lib
@@ -660,6 +657,12 @@ adb pull system/etc/camera/bshutter/imx214/info.xml /proprietary/system/etc/came
 adb pull system/etc/camera/bshutter/imx214/algo.xml /proprietary/system/etc/camera/bshutter/imx214
 adb pull system/etc/camera/bshutter/default/info.xml /proprietary/system/etc/camera/bshutter/default
 adb pull system/etc/camera/bshutter/default/algo.xml /proprietary/system/etc/camera/bshutter/default
+adb pull system/etc/bluetooth/bt_did.conf /proprietary/system/etc/bluetooth
+adb pull system/etc/bluetooth/bt_stack_beta.conf /proprietary/system/etc/bluetooth
+adb pull system/etc/bluetooth/bt_stack.conf /proprietary/system/etc/bluetooth
+adb pull system/etc/bluetooth/bt_vendor.conf /proprietary/system/etc/bluetooth
+adb pull system/etc/bluetooth/bt_stack_log.conf /proprietary/system/etc/bluetooth
+adb pull system/etc/bluetooth/auto_pair_devlist.conf /proprietary/system/etc/bluetooth
 adb pull system/vendor/firmware/libpn547_fw.so /proprietary/system/vendor/firmware
 adb pull system/vendor/firmware/nvram4334_hw_mogolia_ulg.txt /proprietary/system/vendor/firmware
 adb pull system/vendor/firmware/nvram4334_hw_mogolia_ulca.txt /proprietary/system/vendor/firmware
@@ -863,4 +866,4 @@ adb pull system/usr/keylayout/Vendor_0b05_Product_4500.kl /proprietary/system/us
 adb pull system/usr/keylayout/Vendor_046d_Product_c216.kl /proprietary/system/usr/keylayout
 
 
-# Total 860 files added on 2016-07-28T19:21:08.825600 UTC
+# Total 863 files added on 2016-07-28T21:59:38.103407 UTC
