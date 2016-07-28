@@ -73,7 +73,7 @@ def initMkFile() :
     infile = open(mkfile_name, "w");
     print("# Automatically generated file by generate_files.py", file=infile)
     print("# Script by gabry3795 - gabry.gabry <at> hotmail.it\n", file=infile)
-    print("LOCAL_PATH := vendor/huawei/mt7_l09\n", file=infile)
+    print("LOCAL_PATH := vendor/huawei/mt7l09\n", file=infile)
     
     # Extra text
     print("\n", file=infile)
