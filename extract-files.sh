@@ -12,7 +12,6 @@ adb pull system/lib/libaudioflinger.so /proprietary/system/lib
 adb pull system/lib/libjni_mrc_cg_filters.so /proprietary/system/lib
 adb pull system/lib/libjni_tiltcorrection.so /proprietary/system/lib
 adb pull system/lib/libmedia_jni.so /proprietary/system/lib
-adb pull system/lib/l_i_b_b_luetooth_jni.so /proprietary/system/lib
 adb pull system/lib/libjni_morpho_filters.so /proprietary/system/lib
 adb pull system/lib/libwpa_client.so /proprietary/system/lib
 adb pull system/lib/libdrmbitmap.huawei.so /proprietary/system/lib
@@ -866,4 +865,4 @@ adb pull system/usr/keylayout/Vendor_0b05_Product_4500.kl /proprietary/system/us
 adb pull system/usr/keylayout/Vendor_046d_Product_c216.kl /proprietary/system/usr/keylayout
 
 
-# Total 863 files added on 2016-07-28T21:59:38.103407 UTC
+# Total 862 files added on 2016-07-28T22:22:39.112783 UTC

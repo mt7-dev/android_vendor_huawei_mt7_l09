@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_filters.so:system/lib/libjni_mrc_cg_filters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_tiltcorrection.so:system/lib/libjni_tiltcorrection.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
-	$(LOCAL_PATH)/proprietary/system/lib/l_i_b_b_luetooth_jni.so:system/lib/l_i_b_b_luetooth_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_morpho_filters.so:system/lib/libjni_morpho_filters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libwpa_client.so:system/lib/libwpa_client.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdrmbitmap.huawei.so:system/lib/libdrmbitmap.huawei.so \
@@ -874,4 +873,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 863 files added on 2016-07-28T21:59:38.103369 UTC
+# Total 862 files added on 2016-07-28T22:22:39.112757 UTC
