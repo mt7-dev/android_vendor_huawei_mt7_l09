@@ -737,6 +737,7 @@ adb pull system/bin/hdmi_daemon /proprietary/system/bin
 adb pull system/bin/netd /proprietary/system/bin
 adb pull system/bin/wifiwakeupsrc /proprietary/system/bin
 adb pull system/bin/diagserver /proprietary/system/bin
+adb pull system/bin/mediaserver /proprietary/system/bin
 adb pull system/bin/hwnff /proprietary/system/bin
 adb pull system/bin/atcmdserver /proprietary/system/bin
 adb pull system/bin/glgps47531 /proprietary/system/bin
@@ -895,4 +896,4 @@ adb pull system/usr/keylayout/Vendor_0b05_Product_4500.kl /proprietary/system/us
 adb pull system/usr/keylayout/Vendor_046d_Product_c216.kl /proprietary/system/usr/keylayout
 
 
-# Total 892 files added on 2016-07-29T12:15:44.158639 UTC
+# Total 893 files added on 2016-07-29T14:03:31.194792 UTC

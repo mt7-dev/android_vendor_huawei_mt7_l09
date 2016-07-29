@@ -745,6 +745,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/netd:system/bin/netd \
 	$(LOCAL_PATH)/proprietary/system/bin/wifiwakeupsrc:system/bin/wifiwakeupsrc \
 	$(LOCAL_PATH)/proprietary/system/bin/diagserver:system/bin/diagserver \
+	$(LOCAL_PATH)/proprietary/system/bin/mediaserver:system/bin/mediaserver \
 	$(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
 	$(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver \
 	$(LOCAL_PATH)/proprietary/system/bin/glgps47531:system/bin/glgps47531 \
@@ -903,4 +904,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 892 files added on 2016-07-29T12:15:44.149886 UTC
+# Total 893 files added on 2016-07-29T14:03:31.152572 UTC
