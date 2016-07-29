@@ -327,6 +327,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/fonts/NanumGothic.ttf:system/fonts/NanumGothic.ttf \
 	$(LOCAL_PATH)/proprietary/system/fonts/DroidSansFallback.ttf:system/fonts/DroidSansFallback.ttf \
 	$(LOCAL_PATH)/proprietary/system/fonts/MTLmr3m.ttf:system/fonts/MTLmr3m.ttf \
+	$(LOCAL_PATH)/proprietary/system/media/audio/ui/VideoRecordEnd.ogg:system/media/audio/ui/VideoRecordEnd.ogg \
 	$(LOCAL_PATH)/proprietary/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/reader.conf:system/etc/reader.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/topazhp.cfg:system/etc/topazhp.cfg \
@@ -902,4 +903,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 891 files added on 2016-07-29T12:02:00.924388 UTC
+# Total 892 files added on 2016-07-29T12:15:44.149886 UTC

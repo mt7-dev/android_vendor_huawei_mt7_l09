@@ -319,6 +319,7 @@ adb pull system/lib/drm/libdrmhwomavoneplugin.so /proprietary/system/lib/drm
 adb pull system/fonts/NanumGothic.ttf /proprietary/system/fonts
 adb pull system/fonts/DroidSansFallback.ttf /proprietary/system/fonts
 adb pull system/fonts/MTLmr3m.ttf /proprietary/system/fonts
+adb pull system/media/audio/ui/VideoRecordEnd.ogg /proprietary/system/media/audio/ui
 adb pull system/etc/libnfc-brcm.conf /proprietary/system/etc
 adb pull system/etc/reader.conf /proprietary/system/etc
 adb pull system/etc/topazhp.cfg /proprietary/system/etc
@@ -894,4 +895,4 @@ adb pull system/usr/keylayout/Vendor_0b05_Product_4500.kl /proprietary/system/us
 adb pull system/usr/keylayout/Vendor_046d_Product_c216.kl /proprietary/system/usr/keylayout
 
 
-# Total 891 files added on 2016-07-29T12:02:00.955389 UTC
+# Total 892 files added on 2016-07-29T12:15:44.158639 UTC
