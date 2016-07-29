@@ -127,7 +127,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwExtend.so:system/lib/libCameraHwExtend.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libnfc_nci_jni.so:system/lib/libnfc_nci_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libRSSupport.so:system/lib/libRSSupport.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libskia.so:system/lib/libskia.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libvorbisidec.so:system/lib/libvorbisidec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_nve_operation.so:system/lib/lib_nve_operation.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwsign.so:system/lib/libhwsign.so \
@@ -194,8 +193,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioutils.so:system/lib/libaudioutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfm_hal.so:system/lib/libfm_hal.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libsysutils.so:system/lib/libsysutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmediandk.so:system/lib/libmediandk.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libifdsmartcardapi.so:system/lib/libifdsmartcardapi.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_k3_ffmpeg.so:system/lib/lib_k3_ffmpeg.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioresampler.so:system/lib/libaudioresampler.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwParam.so:system/lib/libCameraHwParam.so \
@@ -323,19 +324,33 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
 	$(LOCAL_PATH)/proprietary/system/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
 	$(LOCAL_PATH)/proprietary/system/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so \
+	$(LOCAL_PATH)/proprietary/system/fonts/NanumGothic.ttf:system/fonts/NanumGothic.ttf \
+	$(LOCAL_PATH)/proprietary/system/fonts/DroidSansFallback.ttf:system/fonts/DroidSansFallback.ttf \
+	$(LOCAL_PATH)/proprietary/system/fonts/MTLmr3m.ttf:system/fonts/MTLmr3m.ttf \
+	$(LOCAL_PATH)/proprietary/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/reader.conf:system/etc/reader.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/topazhp.cfg:system/etc/topazhp.cfg \
 	$(LOCAL_PATH)/proprietary/system/etc/viacbp82d_shutdown_log.bcfg:system/etc/viacbp82d_shutdown_log.bcfg \
+	$(LOCAL_PATH)/proprietary/system/etc/jankcfg.json:system/etc/jankcfg.json \
+	$(LOCAL_PATH)/proprietary/system/etc/device_state_monitor.conf:system/etc/device_state_monitor.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/gps4752config_cl.xml:system/etc/gps4752config_cl.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/device_monitor_for_nff.conf:system/etc/device_monitor_for_nff.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/mediaserver_pid.sh:system/etc/mediaserver_pid.sh \
 	$(LOCAL_PATH)/proprietary/system/etc/camera_config.cfg:system/etc/camera_config.cfg \
+	$(LOCAL_PATH)/proprietary/system/etc/Jazz_V1_libnfc-nxp.conf:system/etc/Jazz_V1_libnfc-nxp.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/Jazz_CLG_V1_libnfc-nxp.conf:system/etc/Jazz_CLG_V1_libnfc-nxp.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/camera_resolutions.cfg:system/etc/camera_resolutions.cfg \
 	$(LOCAL_PATH)/proprietary/system/etc/gps4752config.xml:system/etc/gps4752config.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/pwrprof.xml:system/etc/pwrprof.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/camera_orientation.cfg:system/etc/camera_orientation.cfg \
 	$(LOCAL_PATH)/proprietary/system/etc/viacbp82d_log.bcfg:system/etc/viacbp82d_log.bcfg \
 	$(LOCAL_PATH)/proprietary/system/etc/gps47531config.xml:system/etc/gps47531config.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/gps.conf:system/etc/gps.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/jankbdcfg.json:system/etc/jankbdcfg.json \
 	$(LOCAL_PATH)/proprietary/system/etc/vdec_atlas.cfg:system/etc/vdec_atlas.cfg \
 	$(LOCAL_PATH)/proprietary/system/etc/camera_videosnapshot.cfg:system/etc/camera_videosnapshot.cfg \
+	$(LOCAL_PATH)/proprietary/system/etc/Jazz_ULCA_V1_libnfc-nxp.conf:system/etc/Jazz_ULCA_V1_libnfc-nxp.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/viacbp82d_shutdown_log.bcfg:system/etc/modemConfig/viacbp82d_shutdown_log.bcfg \
 	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/SystemCmd.cmf:system/etc/modemConfig/SystemCmd.cmf \
 	$(LOCAL_PATH)/proprietary/system/etc/modemConfig/viacbp82d_log.bcfg:system/etc/modemConfig/viacbp82d_log.bcfg \
@@ -546,6 +561,18 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/srs/models.txt:system/etc/srs/models.txt \
 	$(LOCAL_PATH)/proprietary/system/etc/srs/srsmodels.lic:system/etc/srs/srsmodels.lic \
 	$(LOCAL_PATH)/proprietary/system/etc/srs/srs_processing.cfg:system/etc/srs/srs_processing.cfg \
+	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_12.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_12.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_1.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_1.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_11.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_11.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_12.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_12.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_Weight.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_Weight.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_1.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_1.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_11.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_11.dat \
+	$(LOCAL_PATH)/proprietary/system/etc/xml/hw_defaults.xml:system/etc/xml/hw_defaults.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/xml/power_profile.xml:system/etc/xml/power_profile.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/xml/hw_easywakeupmotion_config.xml:system/etc/xml/hw_easywakeupmotion_config.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/xml/mms_config.xml:system/etc/xml/mms_config.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/xml/hwouc_presets.xml:system/etc/xml/hwouc_presets.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -714,12 +741,14 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/gpsdaemon:system/bin/gpsdaemon \
 	$(LOCAL_PATH)/proprietary/system/bin/drmserver:system/bin/drmserver \
 	$(LOCAL_PATH)/proprietary/system/bin/hdmi_daemon:system/bin/hdmi_daemon \
+	$(LOCAL_PATH)/proprietary/system/bin/netd:system/bin/netd \
 	$(LOCAL_PATH)/proprietary/system/bin/wifiwakeupsrc:system/bin/wifiwakeupsrc \
 	$(LOCAL_PATH)/proprietary/system/bin/diagserver:system/bin/diagserver \
 	$(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
 	$(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver \
 	$(LOCAL_PATH)/proprietary/system/bin/glgps47531:system/bin/glgps47531 \
 	$(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
+	$(LOCAL_PATH)/proprietary/system/bin/pcscd:system/bin/pcscd \
 	$(LOCAL_PATH)/proprietary/system/bin/surfaceflinger:system/bin/surfaceflinger \
 	$(LOCAL_PATH)/proprietary/system/bin/gpslogd:system/bin/gpslogd \
 	$(LOCAL_PATH)/proprietary/system/bin/libhwui.so:system/bin/libhwui.so \
@@ -873,4 +902,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 862 files added on 2016-07-28T22:22:39.112757 UTC
+# Total 891 files added on 2016-07-29T12:02:00.924388 UTC

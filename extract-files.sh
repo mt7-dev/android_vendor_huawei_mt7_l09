@@ -119,7 +119,6 @@ adb pull system/lib/libviagpsrpc.so /proprietary/system/lib
 adb pull system/lib/libCameraHwExtend.so /proprietary/system/lib
 adb pull system/lib/libnfc_nci_jni.so /proprietary/system/lib
 adb pull system/lib/libRSSupport.so /proprietary/system/lib
-adb pull system/lib/libskia.so /proprietary/system/lib
 adb pull system/lib/libvorbisidec.so /proprietary/system/lib
 adb pull system/lib/lib_nve_operation.so /proprietary/system/lib
 adb pull system/lib/libhwsign.so /proprietary/system/lib
@@ -186,8 +185,10 @@ adb pull system/lib/libcameraservice.so /proprietary/system/lib
 adb pull system/lib/libaudioutils.so /proprietary/system/lib
 adb pull system/lib/libfm_hal.so /proprietary/system/lib
 adb pull system/lib/libOpenSLES.so /proprietary/system/lib
+adb pull system/lib/libsysutils.so /proprietary/system/lib
 adb pull system/lib/libnfc-nci.so /proprietary/system/lib
 adb pull system/lib/libmediandk.so /proprietary/system/lib
+adb pull system/lib/libifdsmartcardapi.so /proprietary/system/lib
 adb pull system/lib/lib_k3_ffmpeg.so /proprietary/system/lib
 adb pull system/lib/libaudioresampler.so /proprietary/system/lib
 adb pull system/lib/libCameraHwParam.so /proprietary/system/lib
@@ -315,19 +316,33 @@ adb pull system/lib/soundfx/libvisualizer.so /proprietary/system/lib/soundfx
 adb pull system/lib/soundfx/libreverbwrapper.so /proprietary/system/lib/soundfx
 adb pull system/lib/soundfx/libldnhncr.so /proprietary/system/lib/soundfx
 adb pull system/lib/drm/libdrmhwomavoneplugin.so /proprietary/system/lib/drm
+adb pull system/fonts/NanumGothic.ttf /proprietary/system/fonts
+adb pull system/fonts/DroidSansFallback.ttf /proprietary/system/fonts
+adb pull system/fonts/MTLmr3m.ttf /proprietary/system/fonts
+adb pull system/etc/libnfc-brcm.conf /proprietary/system/etc
+adb pull system/etc/reader.conf /proprietary/system/etc
 adb pull system/etc/topazhp.cfg /proprietary/system/etc
 adb pull system/etc/viacbp82d_shutdown_log.bcfg /proprietary/system/etc
+adb pull system/etc/jankcfg.json /proprietary/system/etc
+adb pull system/etc/device_state_monitor.conf /proprietary/system/etc
 adb pull system/etc/gps47531config_cl.xml /proprietary/system/etc
 adb pull system/etc/gps4752config_cl.xml /proprietary/system/etc
+adb pull system/etc/device_monitor_for_nff.conf /proprietary/system/etc
+adb pull system/etc/mediaserver_pid.sh /proprietary/system/etc
 adb pull system/etc/camera_config.cfg /proprietary/system/etc
+adb pull system/etc/Jazz_V1_libnfc-nxp.conf /proprietary/system/etc
+adb pull system/etc/Jazz_CLG_V1_libnfc-nxp.conf /proprietary/system/etc
 adb pull system/etc/camera_resolutions.cfg /proprietary/system/etc
 adb pull system/etc/gps4752config.xml /proprietary/system/etc
+adb pull system/etc/pwrprof.xml /proprietary/system/etc
 adb pull system/etc/camera_orientation.cfg /proprietary/system/etc
 adb pull system/etc/viacbp82d_log.bcfg /proprietary/system/etc
 adb pull system/etc/gps47531config.xml /proprietary/system/etc
 adb pull system/etc/gps.conf /proprietary/system/etc
+adb pull system/etc/jankbdcfg.json /proprietary/system/etc
 adb pull system/etc/vdec_atlas.cfg /proprietary/system/etc
 adb pull system/etc/camera_videosnapshot.cfg /proprietary/system/etc
+adb pull system/etc/Jazz_ULCA_V1_libnfc-nxp.conf /proprietary/system/etc
 adb pull system/etc/modemConfig/viacbp82d_shutdown_log.bcfg /proprietary/system/etc/modemConfig
 adb pull system/etc/modemConfig/SystemCmd.cmf /proprietary/system/etc/modemConfig
 adb pull system/etc/modemConfig/viacbp82d_log.bcfg /proprietary/system/etc/modemConfig
@@ -538,6 +553,18 @@ adb pull system/etc/audio/dts/ascend_dts_algo_BELLA_ULG_normal.xml /proprietary/
 adb pull system/etc/srs/models.txt /proprietary/system/etc/srs
 adb pull system/etc/srs/srsmodels.lic /proprietary/system/etc/srs
 adb pull system/etc/srs/srs_processing.cfg /proprietary/system/etc/srs
+adb pull system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_12.dat /proprietary/system/etc/facerecognition/face_detect_classifiers
+adb pull system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_1.dat /proprietary/system/etc/facerecognition/face_detect_classifiers
+adb pull system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_11.dat /proprietary/system/etc/facerecognition/face_detect_classifiers
+adb pull system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_12.dat /proprietary/system/etc/facerecognition/face_detect_classifiers
+adb pull system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_Weight.dat /proprietary/system/etc/facerecognition/face_detect_classifiers
+adb pull system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_1.dat /proprietary/system/etc/facerecognition/face_detect_classifiers
+adb pull system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_11.dat /proprietary/system/etc/facerecognition/face_detect_classifiers
+adb pull system/etc/xml/hw_defaults.xml /proprietary/system/etc/xml
+adb pull system/etc/xml/power_profile.xml /proprietary/system/etc/xml
+adb pull system/etc/xml/hw_easywakeupmotion_config.xml /proprietary/system/etc/xml
+adb pull system/etc/xml/mms_config.xml /proprietary/system/etc/xml
+adb pull system/etc/xml/hwouc_presets.xml /proprietary/system/etc/xml
 adb pull system/etc/wifi/wpa_supplicant_overlay.conf /proprietary/system/etc/wifi
 adb pull system/etc/wifi/p2p_supplicant_overlay.conf /proprietary/system/etc/wifi
 adb pull system/etc/wifi/wpa_supplicant.conf /proprietary/system/etc/wifi
@@ -706,12 +733,14 @@ adb pull system/bin/storedefaultkey /proprietary/system/bin
 adb pull system/bin/gpsdaemon /proprietary/system/bin
 adb pull system/bin/drmserver /proprietary/system/bin
 adb pull system/bin/hdmi_daemon /proprietary/system/bin
+adb pull system/bin/netd /proprietary/system/bin
 adb pull system/bin/wifiwakeupsrc /proprietary/system/bin
 adb pull system/bin/diagserver /proprietary/system/bin
 adb pull system/bin/hwnff /proprietary/system/bin
 adb pull system/bin/atcmdserver /proprietary/system/bin
 adb pull system/bin/glgps47531 /proprietary/system/bin
 adb pull system/bin/device_monitor /proprietary/system/bin
+adb pull system/bin/pcscd /proprietary/system/bin
 adb pull system/bin/surfaceflinger /proprietary/system/bin
 adb pull system/bin/gpslogd /proprietary/system/bin
 adb pull system/bin/libhwui.so /proprietary/system/bin
@@ -865,4 +894,4 @@ adb pull system/usr/keylayout/Vendor_0b05_Product_4500.kl /proprietary/system/us
 adb pull system/usr/keylayout/Vendor_046d_Product_c216.kl /proprietary/system/usr/keylayout
 
 
-# Total 862 files added on 2016-07-28T22:22:39.112783 UTC
+# Total 891 files added on 2016-07-29T12:02:00.955389 UTC
