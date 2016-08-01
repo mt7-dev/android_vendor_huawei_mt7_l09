@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub.so:system/lib/libperfhub.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhw_display_effect.so:system/lib/libhw_display_effect.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhidisk_security.so:system/lib/libhidisk_security.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libicuuc.so:system/lib/libicuuc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioeffectutil.so:system/lib/libhuaweiaudioeffectutil.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmemtrack.so:system/lib/libmemtrack.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhw_display_test.so:system/lib/libhw_display_test.so \
@@ -328,6 +327,75 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/fonts/DroidSansFallback.ttf:system/fonts/DroidSansFallback.ttf \
 	$(LOCAL_PATH)/proprietary/system/fonts/MTLmr3m.ttf:system/fonts/MTLmr3m.ttf \
 	$(LOCAL_PATH)/proprietary/system/media/audio/ui/VideoRecordEnd.ogg:system/media/audio/ui/VideoRecordEnd.ogg \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-VN1.txt:system/fpgaice40/GRACE-TUGL-VN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-VN1.bin:system/fpgaice40/CARRERA-TULG-VN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-VN1.bin:system/fpgaice40/GRACE-CLG-VN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V4ANDVN1.txt:system/fpgaice40/GRACE-TUGL-V4ANDVN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V4ANDVN1.bin:system/fpgaice40/GRACE-TUGL-V4ANDVN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-UL00-VA.bin:system/fpgaice40/PLK-UL00-VA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V3.txt:system/fpgaice40/GRACE-CLG-V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_V1.bin:system/fpgaice40/LB_ALL_V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-L02-VA.txt:system/fpgaice40/PLK-L02-VA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V4.bin:system/fpgaice40/GRACE-CLG-V4.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V3.txt:system/fpgaice40/CARRERA_CLG_V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_VN1.txt:system/fpgaice40/CARRERA_CLG_VN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V3.bin:system/fpgaice40/GRACE-CLG-V3.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-CL00-VA.bin:system/fpgaice40/PLK-CL00-VA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-L02-VA.bin:system/fpgaice40/PLK-L02-VA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_VN1.txt:system/fpgaice40/LB_ALL_VN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-VN2.txt:system/fpgaice40/CARRERA-TULG-VN2.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V1.txt:system/fpgaice40/GRACE-CLG-V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_VN2.txt:system/fpgaice40/CARRERA_CLG_VN2.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_V4.txt:system/fpgaice40/LB_ALL_V4.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-AL10-VA.bin:system/fpgaice40/PLK-AL10-VA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-VN2.bin:system/fpgaice40/CARRERA-TULG-VN2.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_VN1_FPGA.bin:system/fpgaice40/CARRERA_CLG_VN1_FPGA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V1.bin:system/fpgaice40/GRACE-TUGL-V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_VN2.bin:system/fpgaice40/CARRERA_CLG_VN2.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V1.txt:system/fpgaice40/GRACE-TUGL-V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V1.bin:system/fpgaice40/CARRERA-TULG-V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_VN1_FPGA.txt:system/fpgaice40/CARRERA_CLG_VN1_FPGA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-L01-VA.txt:system/fpgaice40/PLK-L01-VA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V3.bin:system/fpgaice40/CARRERA-TULG-V3.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-VN1.txt:system/fpgaice40/CARRERA-TULG-VN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_V4.bin:system/fpgaice40/LB_ALL_V4.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V3.bin:system/fpgaice40/CARRERA_CLG_V3.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_VN1.bin:system/fpgaice40/LB_ALL_VN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-VN1-FPGA.txt:system/fpgaice40/CARRERA-TULG-VN1-FPGA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-VN1.bin:system/fpgaice40/GRACE-TUGL-VN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-TL00-VA.txt:system/fpgaice40/PLK-TL00-VA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V4.txt:system/fpgaice40/CARRERA_CLG_V4.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_V3.bin:system/fpgaice40/LB_ALL_V3.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V3.txt:system/fpgaice40/GRACE-TUGL-V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V4.txt:system/fpgaice40/GRACE-CLG-V4.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V4.bin:system/fpgaice40/CARRERA-TULG-V4.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V4.txt:system/fpgaice40/CARRERA-TULG-V4.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-VN1.txt:system/fpgaice40/GRACE-CLG-VN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-UL00-VA.txt:system/fpgaice40/PLK-UL00-VA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-VN1-FPGA.bin:system/fpgaice40/CARRERA-TULG-VN1-FPGA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-L01-VA.bin:system/fpgaice40/PLK-L01-VA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_VN1.bin:system/fpgaice40/CARRERA_CLG_VN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-AL10-VA.txt:system/fpgaice40/PLK-AL10-VA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V4.bin:system/fpgaice40/GRACE-TUGL-V4.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_V3.txt:system/fpgaice40/LB_ALL_V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V0.bin:system/fpgaice40/GRACE-CLG-V0.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V0.txt:system/fpgaice40/GRACE-TUGL-V0.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_V1.txt:system/fpgaice40/LB_ALL_V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V1.bin:system/fpgaice40/CARRERA_CLG_V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V3.txt:system/fpgaice40/CARRERA-TULG-V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V0.bin:system/fpgaice40/GRACE-TUGL-V0.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-CL00-VA.txt:system/fpgaice40/PLK-CL00-VA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-TL01H-VA.txt:system/fpgaice40/PLK-TL01H-VA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V0.txt:system/fpgaice40/GRACE-CLG-V0.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V4.txt:system/fpgaice40/GRACE-TUGL-V4.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V3.bin:system/fpgaice40/GRACE-TUGL-V3.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-TL01H-VA.bin:system/fpgaice40/PLK-TL01H-VA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-TL00-VA.bin:system/fpgaice40/PLK-TL00-VA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V1.txt:system/fpgaice40/CARRERA-TULG-V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V1.txt:system/fpgaice40/CARRERA_CLG_V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V1.bin:system/fpgaice40/GRACE-CLG-V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V4.bin:system/fpgaice40/CARRERA_CLG_V4.bin \
+	$(LOCAL_PATH)/proprietary/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/reader.conf:system/etc/reader.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/topazhp.cfg:system/etc/topazhp.cfg \
@@ -904,4 +972,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 893 files added on 2016-07-29T14:03:31.152572 UTC
+# Total 961 files added on 2016-08-01T00:47:17.660976 UTC
