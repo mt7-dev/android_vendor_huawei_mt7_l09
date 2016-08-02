@@ -141,7 +141,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_sz.so:system/lib/libmrc_cg_sz.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_mrc_cg_filters_camera.so:system/lib/libjni_mrc_cg_filters_camera.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libCameraHwCallBack.so:system/lib/libCameraHwCallBack.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libmtp.so:system/lib/libmtp.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libGLESv2.so:system/lib/libGLESv2.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmtfilters.so:system/lib/libmtfilters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdmd.so:system/lib/libdmd.so \
@@ -192,7 +191,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioutils.so:system/lib/libaudioutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfm_hal.so:system/lib/libfm_hal.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libsysutils.so:system/lib/libsysutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmediandk.so:system/lib/libmediandk.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libifdsmartcardapi.so:system/lib/libifdsmartcardapi.so \
@@ -972,4 +970,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 961 files added on 2016-08-01T00:47:17.660976 UTC
+# Total 959 files added on 2016-08-02T11:27:04.068843 UTC

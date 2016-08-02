@@ -133,7 +133,6 @@ adb pull system/lib/libjni_front_panorama_camera.so /proprietary/system/lib
 adb pull system/lib/libmrc_cg_sz.so /proprietary/system/lib
 adb pull system/lib/libjni_mrc_cg_filters_camera.so /proprietary/system/lib
 adb pull system/lib/libCameraHwCallBack.so /proprietary/system/lib
-adb pull system/lib/libmtp.so /proprietary/system/lib
 adb pull system/lib/libGLESv2.so /proprietary/system/lib
 adb pull system/lib/libmtfilters.so /proprietary/system/lib
 adb pull system/lib/libdmd.so /proprietary/system/lib
@@ -184,7 +183,6 @@ adb pull system/lib/libcameraservice.so /proprietary/system/lib
 adb pull system/lib/libaudioutils.so /proprietary/system/lib
 adb pull system/lib/libfm_hal.so /proprietary/system/lib
 adb pull system/lib/libOpenSLES.so /proprietary/system/lib
-adb pull system/lib/libsysutils.so /proprietary/system/lib
 adb pull system/lib/libnfc-nci.so /proprietary/system/lib
 adb pull system/lib/libmediandk.so /proprietary/system/lib
 adb pull system/lib/libifdsmartcardapi.so /proprietary/system/lib
@@ -964,4 +962,4 @@ adb pull system/usr/keylayout/Vendor_0b05_Product_4500.kl /proprietary/system/us
 adb pull system/usr/keylayout/Vendor_046d_Product_c216.kl /proprietary/system/usr/keylayout
 
 
-# Total 961 files added on 2016-08-01T00:47:17.662727 UTC
+# Total 959 files added on 2016-08-02T11:27:04.068865 UTC
