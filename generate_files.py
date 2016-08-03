@@ -11,11 +11,14 @@
 import sys
 import os
 import datetime
+import getopt
 
 # Environment variables
 mkfile_name = "BoardConfigVendor.mk"
 scriptfile_name = "extract-files.sh"
+txt_file = "proprietary-files.txt";
 root = os.getcwd() + "/proprietary/"
+proprietary_version = "B571";
 
 def main() :
     total_files = 0
@@ -24,8 +27,10 @@ def main() :
     # Init files
     initMkFile()
     initShFile()
+    initTxtFile()
     in_mk_file = open(mkfile_name, "a");
     in_sh_file = open(scriptfile_name, "a");
+    in_txt_file = open(txt_file, "a");
     print("PRODUCT_COPY_FILES += \\", file=in_mk_file)
 
     # Count files
@@ -54,31 +59,41 @@ def main() :
                 end_sep = ""
             else:
                 end_sep = " \\"
-            print("\t$(LOCAL_PATH)/proprietary/",true_dir, ":", true_dir , end_sep , sep="", file=in_mk_file)
+            print("\t$(LOCAL_PATH)/proprietary/", true_dir, ":", true_dir , end_sep , sep="", file=in_mk_file)
     
             # Print in sh_file
-            print("adb pull ", true_dir, " /proprietary/" ,true_dir[:true_dir.rfind("/")], sep="", file=in_sh_file)
+            print("echo \"===> Extracting ", true_dir, "\\n\"", sep="", file=in_sh_file)
+            print("adb pull /", true_dir, " ../../../proprietary/" , true_dir[:true_dir.rfind("/")], sep="", file=in_sh_file)
+            
+            # Print in txt file
+            print(true_dir, sep="", file=in_txt_file)
             
     print("\n\n# Total", counter , "files added on", datetime.datetime.utcnow().isoformat(), "UTC" , file=in_mk_file)
     print("\n\n# Total", counter , "files added on", datetime.datetime.utcnow().isoformat(), "UTC", file=in_sh_file)
+    print("\n\n# Total", counter , "files added on", datetime.datetime.utcnow().isoformat(), "UTC", file=in_txt_file)
 
     print("="*50)
     print("Done!", total_files, "files processed")
     print("Check", mkfile_name, "and", scriptfile_name, "\n\n")
-    
+        
     in_mk_file.close()
     in_sh_file.close()
+    in_txt_file.close()
 
 def initMkFile() :
     infile = open(mkfile_name, "w");
+    print("##", file=infile)
     print("# Automatically generated file by generate_files.py", file=infile)
-    print("# Script by gabry3795 - gabry.gabry <at> hotmail.it\n", file=infile)
+    print("# Script by gabry3795 - gabry.gabry <at> hotmail.it", file=infile)
+    print("# ", file=infile)
+    print("# These blobs are extracted from the proprietary version number ", proprietary_version ,sep="", file=infile)
+    print("#################\n", file=infile)
     print("LOCAL_PATH := vendor/huawei/mt7l09\n", file=infile)
     
     # Extra text
     print("\n", file=infile)
-    print("PRODUCT_PACKAGES += \\", file=infile)
-    print("\tlibGLES_mali", file=infile)
+    print("#PRODUCT_PACKAGES += \\", file=infile)
+    print("#\tlibGLES_mali", file=infile)
     
     print("\n", file=infile)
     
@@ -86,9 +101,32 @@ def initMkFile() :
 
 def initShFile() :    
     infile = open(scriptfile_name, "w");
-    print("#!/bin/bash", file=infile)
+    print("#!/bin/sh", file=infile)
+    print("##", file=infile)
     print("# Automatically generated file by generate_files.py", file=infile)
-    print("# Script by gabry3795 - gabry.gabry <at> hotmail.it\n", file=infile)
+    print("# Script by gabry3795 - gabry.gabry <at> hotmail.it", file=infile)
+    print("# ", file=infile)
+    print("# These blobs are extracted from the proprietary version number ", proprietary_version ,sep="", file=infile)
+    print("#################\n", file=infile)
+    
+    print("echo \"!!This script must be executed in the folder device/huawei/mt7l09!!\\n\\n\"", file=infile)
+    print("echo \"==> Creating the vendor folder...\"", file=infile)
+    print("mkdir -p ../../../vendor/huawei/mt7l09/proprietary", file=infile)
+    print("echo \"==> Copying BoardConfigVendor..\"", file=infile)
+    print("cp BoardConfigVendor.mk.disabled ../../../vendor/huawei/mt7l09/proprietary/BoardConfigVendor.mk", file=infile)
+    print("", file=infile)
+    print("echo \"==> Starting extracting files, device must be connected and rooted!\"", file=infile)
+    
+    infile.close()
+    
+def initTxtFile() :
+    infile = open(txt_file, "w");
+    print("##", file=infile)
+    print("# Automatically generated file by generate_files.py", file=infile)
+    print("# Script by gabry3795 - gabry.gabry <at> hotmail.it", file=infile)
+    print("# ", file=infile)
+    print("# These blobs are extracted from the proprietary version number ", proprietary_version ,sep="", file=infile)
+    print("#################\n", file=infile)
     infile.close()
        
 main()

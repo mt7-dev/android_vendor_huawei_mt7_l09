@@ -1,12 +1,16 @@
+##
 # Automatically generated file by generate_files.py
 # Script by gabry3795 - gabry.gabry <at> hotmail.it
+# 
+# These blobs are extracted from the proprietary version number B571
+#################
 
 LOCAL_PATH := vendor/huawei/mt7l09
 
 
 
-PRODUCT_PACKAGES += \
-	libGLES_mali
+#PRODUCT_PACKAGES += \
+#	libGLES_mali
 
 
 PRODUCT_COPY_FILES += \
@@ -970,4 +974,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
 
 
-# Total 959 files added on 2016-08-02T11:27:04.068843 UTC
+# Total 959 files added on 2016-08-03T11:01:33.128769 UTC

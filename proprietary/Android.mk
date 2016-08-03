@@ -12,19 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
+#LOCAL_PATH := $(call my-dir)
 
-# ifneq ($(filter h60_l01 h60_l02 h60_l03 h60_l04 h60_l11 h60_l12 h60_l21,$(TARGET_DEVICE)),)
-# 
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libGLES_mali
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := system/vendor/lib/egl/libGLES_mali.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libGLES_mali
+#LOCAL_MODULE_OWNER := huawei
+#LOCAL_SRC_FILES := system/vendor/lib/egl/libGLES_mali.so
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_SUFFIX := .so
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
+#include $(BUILD_PREBUILT)
 
 # endif
