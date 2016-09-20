@@ -5,7 +5,7 @@
        PortName="/dev/ttyAMA3"
        BaudRate="921600"
        AtCmdTransportPort="/dev/appvcom9"
-       LogEnabled="false"
+       LogEnabled="true"
        Log="FILE"
        LogDirectory="/data/hwzd_logs/gps_log"
        GpslogdPipePath="/data/gps/.gpslogd.pipe"
@@ -38,7 +38,7 @@
        SuplTlsCertPath="/data/cust/xml/server.pem"
        SuplTlsStopForInvPath="false"
 
-       SuplLogEnable="false"
+       SuplLogEnable="true"
        SuplLogFullName="/sdcard/gps/log/supllog.txt"
        WakeLock="geo"
        HttpSyncLto="true"
